@@ -1,1 +1,15 @@
-/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs/srv/GetConfig.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ouster_sensor_msgs/srv/GetConfig.srv
+// generated code does not contain a copyright notice
+
+
+module ouster_sensor_msgs {
+  module srv {
+    struct GetConfig_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetConfig_Response {
+      string config;
+    };
+  };
+};

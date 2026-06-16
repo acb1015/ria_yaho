@@ -1,1 +1,16 @@
-/home/ria4065/go2_ws/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/unitree_api
+msg/Request.idl
+msg/Request.msg
+msg/RequestHeader.idl
+msg/RequestHeader.msg
+msg/RequestIdentity.idl
+msg/RequestIdentity.msg
+msg/RequestLease.idl
+msg/RequestLease.msg
+msg/RequestPolicy.idl
+msg/RequestPolicy.msg
+msg/Response.idl
+msg/Response.msg
+msg/ResponseHeader.idl
+msg/ResponseHeader.msg
+msg/ResponseStatus.idl
+msg/ResponseStatus.msg

@@ -1,1 +1,2 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestIdentity.msg
+int64  id
+int64 api_id

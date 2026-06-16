@@ -1,1 +1,5 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/TimeSpec.msg
+# Time indicates a specific point in time, relative to a clock's 0 point.
+# The seconds component, valid over all int32 values.
+int32 sec
+# The nanoseconds component, valid in the range [0, 10e9).
+uint32 nanosec

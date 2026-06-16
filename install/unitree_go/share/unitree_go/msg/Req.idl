@@ -1,1 +1,14 @@
-/home/ria4065/go2_ws/build/unitree_go/rosidl_adapter/unitree_go/msg/Req.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_go/msg/Req.msg
+// generated code does not contain a copyright notice
+
+
+module unitree_go {
+  module msg {
+    struct Req {
+      string uuid;
+
+      string body;
+    };
+  };
+};

@@ -1,1 +1,13 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/BmsState.msg
+uint8 version_high
+uint8 version_low
+uint8 fn
+uint16[40] cell_vol
+uint32[3] bmsvoltage
+int32 current
+uint8 soc
+uint8 soh
+int16[12] temperature
+uint16 cycle
+uint16 manufacturer_date
+uint32[5] bmsstate
+uint32[3] reserve

@@ -1,1 +1,3 @@
-/home/ria4065/go2_ws/src/ouster-ros/ouster-sensor-msgs/srv/SetConfig.srv
+string config_file
+---
+string config

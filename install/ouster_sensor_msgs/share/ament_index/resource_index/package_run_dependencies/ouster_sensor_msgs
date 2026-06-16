@@ -1,1 +1,1 @@
-/home/ria4065/go2_ws/build/ouster_sensor_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ouster_sensor_msgs
+std_msgs;rosidl_default_runtime;ament_lint_common;ament_lint_auto

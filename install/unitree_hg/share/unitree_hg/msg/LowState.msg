@@ -1,1 +1,9 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/LowState.msg
+uint32[2] version
+uint8 mode_pr
+uint8 mode_machine
+uint32 tick
+IMUState imu_state
+MotorState[35] motor_state
+uint8[40] wireless_remote
+uint32[4] reserve
+uint32 crc

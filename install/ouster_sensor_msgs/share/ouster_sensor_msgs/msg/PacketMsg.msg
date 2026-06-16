@@ -1,1 +1,1 @@
-/home/ria4065/go2_ws/src/ouster-ros/ouster-sensor-msgs/msg/PacketMsg.msg
+uint8[] buf

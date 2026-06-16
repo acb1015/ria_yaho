@@ -1,1 +1,5 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/WirelessController.msg
+float32 lx
+float32 ly
+float32 rx
+float32 ry
+uint16 keys

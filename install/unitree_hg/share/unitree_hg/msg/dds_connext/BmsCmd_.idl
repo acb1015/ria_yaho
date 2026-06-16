@@ -1,1 +1,31 @@
-/home/ria4065/go2_ws/build/unitree_hg/rosidl_generator_dds_idl/unitree_hg/msg/dds_connext/BmsCmd_.idl
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from unitree_hg:msg/BmsCmd.idl
+// generated code does not contain a copyright notice
+
+#ifndef __unitree_hg__msg__bms_cmd__idl__
+#define __unitree_hg__msg__bms_cmd__idl__
+
+
+module unitree_hg {
+
+module msg {
+
+module dds_ {
+
+
+struct BmsCmd_ {
+octet cmd_;
+octet reserve_[40];
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module unitree_hg
+
+
+#endif  // __unitree_hg__msg__bms_cmd__idl__

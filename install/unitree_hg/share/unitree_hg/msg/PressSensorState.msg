@@ -1,1 +1,4 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/PressSensorState.msg
+float32[12] pressure
+float32[12] temperature
+uint32 lost
+uint32 reserve

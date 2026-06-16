@@ -636,7 +636,7 @@ CMakeFiles/read_wireless_controller.dir/src/read_wireless_controller.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/ria4065/go2_ws/build/unitree_go/rosidl_generator_cpp/unitree_go/msg/wireless_controller.hpp \
+ /home/ria4065/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/wireless_controller.hpp \
  /home/ria4065/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__struct.hpp \
  /home/ria4065/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__builder.hpp \
  /home/ria4065/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__traits.hpp \

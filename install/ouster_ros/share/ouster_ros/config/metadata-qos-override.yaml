@@ -1,1 +1,11 @@
-/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/config/metadata-qos-override.yaml
+/ouster/metadata:
+  history: keep_last
+  depth: 1
+  reliability: reliable
+  durability: transient_local
+
+/os_node/metadata:
+  history: keep_last
+  depth: 1
+  reliability: reliable
+  durability: transient_local

@@ -1,1 +1,13 @@
-/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/impl/cuda_macros.h
+#pragma once
+
+#ifdef __CUDACC__
+#define OSDK_FN __device__ __host__
+#define OSDK_FN_HOST __host__
+#define OSDK_FN_DEVICE __device__
+#define RESTRICT __restrict__
+#else
+#define OSDK_FN
+#define OSDK_FN_HOST
+#define OSDK_FN_DEVICE
+#define RESTRICT
+#endif

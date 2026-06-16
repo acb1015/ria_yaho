@@ -315,17 +315,17 @@ unitree_api__rosidl_typesupport_cpp/fast:
 .PHONY : unitree_api__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_unitree_api
+# Target rules for targets named ament_cmake_python_copy_unitree_api
 
 # Build rule for target.
-ament_cmake_python_symlink_unitree_api: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_unitree_api
-.PHONY : ament_cmake_python_symlink_unitree_api
+ament_cmake_python_copy_unitree_api: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_unitree_api
+.PHONY : ament_cmake_python_copy_unitree_api
 
 # fast build rule for target.
-ament_cmake_python_symlink_unitree_api/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/build.make CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/build
-.PHONY : ament_cmake_python_symlink_unitree_api/fast
+ament_cmake_python_copy_unitree_api/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_unitree_api.dir/build.make CMakeFiles/ament_cmake_python_copy_unitree_api.dir/build
+.PHONY : ament_cmake_python_copy_unitree_api/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_unitree_api_egg
@@ -2053,7 +2053,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_unitree_api_egg"
-	@echo "... ament_cmake_python_symlink_unitree_api"
+	@echo "... ament_cmake_python_copy_unitree_api"
 	@echo "... uninstall"
 	@echo "... unitree_api"
 	@echo "... unitree_api__cpp"

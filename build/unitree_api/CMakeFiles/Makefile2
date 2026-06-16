@@ -97,7 +97,7 @@ clean: CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/clean
 clean: CMakeFiles/unitree_api__rosidl_typesupport_c.dir/clean
 clean: CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/clean
 clean: CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/clean
-clean: CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/clean
+clean: CMakeFiles/ament_cmake_python_copy_unitree_api.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/clean
 clean: CMakeFiles/unitree_api__rosidl_generator_py.dir/clean
 clean: CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c__pyext.dir/clean
@@ -434,36 +434,36 @@ CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_symlink_unitree_api.dir
+# Target rules for target CMakeFiles/ament_cmake_python_copy_unitree_api.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/build.make CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/build.make CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ria4065/go2_ws/build/unitree_api/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_unitree_api"
-.PHONY : CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/all
+CMakeFiles/ament_cmake_python_copy_unitree_api.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_unitree_api.dir/build.make CMakeFiles/ament_cmake_python_copy_unitree_api.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_unitree_api.dir/build.make CMakeFiles/ament_cmake_python_copy_unitree_api.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ria4065/go2_ws/build/unitree_api/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_unitree_api"
+.PHONY : CMakeFiles/ament_cmake_python_copy_unitree_api.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_copy_unitree_api.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ria4065/go2_ws/build/unitree_api/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_unitree_api.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ria4065/go2_ws/build/unitree_api/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_copy_unitree_api.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_symlink_unitree_api: CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/rule
-.PHONY : ament_cmake_python_symlink_unitree_api
+ament_cmake_python_copy_unitree_api: CMakeFiles/ament_cmake_python_copy_unitree_api.dir/rule
+.PHONY : ament_cmake_python_copy_unitree_api
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/build.make CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/clean
+CMakeFiles/ament_cmake_python_copy_unitree_api.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_unitree_api.dir/build.make CMakeFiles/ament_cmake_python_copy_unitree_api.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_copy_unitree_api.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/all
+CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/all: CMakeFiles/ament_cmake_python_copy_unitree_api.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/build.make CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/build.make CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ria4065/go2_ws/build/unitree_api/CMakeFiles --progress-num= "Built target ament_cmake_python_build_unitree_api_egg"

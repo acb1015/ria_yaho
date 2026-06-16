@@ -1,1 +1,1 @@
-/home/ria4065/go2_ws/build/ouster_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+rclcpp;rclcpp_components;class_loader;rclcpp_lifecycle;std_msgs;ouster_sensor_msgs;sensor_msgs;geometry_msgs;std_srvs;tf2_ros;pcl_conversions;cv_bridge;curl;spdlog;rosidl_default_runtime;launch;launch_ros;libjsoncpp;gtest;ament_cmake_gtest

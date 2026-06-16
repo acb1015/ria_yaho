@@ -660,20 +660,20 @@ CMakeFiles/b2w_sport_client.dir/src/b2w/b2w_sport_client.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/request.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request__struct.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request_header__struct.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request_identity__struct.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request_lease__struct.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request_policy__struct.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request__builder.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request__traits.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request_header__traits.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request_identity__traits.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request_lease__traits.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request_policy__traits.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/request__type_support.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__struct.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__struct.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__struct.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__struct.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__struct.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__builder.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__traits.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__traits.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__traits.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__traits.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__traits.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__type_support.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/ria4065/go2_ws/src/unitree_ros2/example/src/include/common/ros2_b2_sport_client.h \
  /home/ria4065/go2_ws/src/unitree_ros2/example/src/include/nlohmann/json.hpp \
  /usr/include/c++/11/cstddef \
@@ -739,12 +739,12 @@ CMakeFiles/b2w_sport_client.dir/src/b2w/b2w_sport_client.cpp.o: \
  /home/ria4065/go2_ws/src/unitree_ros2/example/src/include/nlohmann/detail/macro_unscope.hpp \
  /home/ria4065/go2_ws/src/unitree_ros2/example/src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
  /home/ria4065/go2_ws/src/unitree_ros2/example/src/include/common/patch.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/response.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/response__struct.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/response_header__struct.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/response_status__struct.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/response__builder.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/response__traits.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/response_header__traits.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/response_status__traits.hpp \
- /home/ria4065/go2_ws/build/unitree_api/rosidl_generator_cpp/unitree_api/msg/detail/response__type_support.hpp
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/response.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__struct.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__struct.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__struct.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__builder.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__traits.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__traits.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__traits.hpp \
+ /home/ria4065/go2_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__type_support.hpp

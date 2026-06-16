@@ -1,1 +1,2 @@
-/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_py/ouster_sensor_msgs/msg/__init__.py
+from ouster_sensor_msgs.msg._packet_msg import PacketMsg  # noqa: F401
+from ouster_sensor_msgs.msg._telemetry import Telemetry  # noqa: F401

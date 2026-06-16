@@ -9,7 +9,7 @@
 /home/ria4065/go2_ws/build/unitree_go/CMakeFiles/unitree_go__rosidl_typesupport_c.dir
 /home/ria4065/go2_ws/build/unitree_go/CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir
 /home/ria4065/go2_ws/build/unitree_go/CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir
-/home/ria4065/go2_ws/build/unitree_go/CMakeFiles/ament_cmake_python_symlink_unitree_go.dir
+/home/ria4065/go2_ws/build/unitree_go/CMakeFiles/ament_cmake_python_copy_unitree_go.dir
 /home/ria4065/go2_ws/build/unitree_go/CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir
 /home/ria4065/go2_ws/build/unitree_go/CMakeFiles/unitree_go__rosidl_generator_py.dir
 /home/ria4065/go2_ws/build/unitree_go/CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c__pyext.dir

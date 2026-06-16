@@ -9,7 +9,7 @@
 /home/ria4065/go2_ws/build/ouster_sensor_msgs/CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_c.dir
 /home/ria4065/go2_ws/build/ouster_sensor_msgs/CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir
 /home/ria4065/go2_ws/build/ouster_sensor_msgs/CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir
-/home/ria4065/go2_ws/build/ouster_sensor_msgs/CMakeFiles/ament_cmake_python_symlink_ouster_sensor_msgs.dir
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/CMakeFiles/ament_cmake_python_copy_ouster_sensor_msgs.dir
 /home/ria4065/go2_ws/build/ouster_sensor_msgs/CMakeFiles/ament_cmake_python_build_ouster_sensor_msgs_egg.dir
 /home/ria4065/go2_ws/build/ouster_sensor_msgs/CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir
 /home/ria4065/go2_ws/build/ouster_sensor_msgs/CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir

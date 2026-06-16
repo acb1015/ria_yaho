@@ -1,1 +1,5 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/IMUState.msg
+float32[4] quaternion
+float32[3] gyroscope
+float32[3] accelerometer
+float32[3] rpy
+int16 temperature

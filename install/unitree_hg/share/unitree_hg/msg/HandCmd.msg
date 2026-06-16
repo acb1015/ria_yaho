@@ -1,1 +1,2 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/HandCmd.msg
+MotorCmd[] motor_cmd
+uint32[4] reserve

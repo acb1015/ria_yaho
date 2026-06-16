@@ -1,1 +1,4 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/MainBoardState.msg
+uint16[6] fan_state
+int16[6] temperature
+float32[6] value
+uint32[6] state

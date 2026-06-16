@@ -1380,17 +1380,17 @@ CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/packet_msg.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/detail/packet_msg__struct.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/detail/packet_msg__builder.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/detail/packet_msg__traits.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/detail/packet_msg__type_support.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/telemetry.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/detail/telemetry__struct.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/detail/telemetry__builder.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/detail/telemetry__traits.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/msg/detail/telemetry__type_support.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__builder.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__traits.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/telemetry.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__struct.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__builder.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__traits.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__type_support.hpp \
  /home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_point.h \
  /home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.h \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/empty.hpp \
@@ -1399,16 +1399,16 @@ CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o: \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/get_config.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/get_config__struct.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/get_config__builder.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/get_config__traits.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/get_config__type_support.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/set_config.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/set_config__struct.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/set_config__builder.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/set_config__traits.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/set_config__type_support.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__builder.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__traits.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__builder.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__traits.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.hpp \
  /home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/visibility_control.h \
  /home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
@@ -1452,11 +1452,11 @@ CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/get_metadata.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/get_metadata__struct.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/get_metadata__builder.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/get_metadata__traits.hpp \
- /home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/detail/get_metadata__type_support.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__builder.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__traits.hpp \
+ /home/ria4065/go2_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.hpp \
  /home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_static_transforms_broadcaster.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.hpp \

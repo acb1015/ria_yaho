@@ -1,1 +1,5 @@
-/home/ria4065/go2_ws/build/ouster_ros/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/ouster_ros
+ouster_ros::OusterSensor;lib/libos_sensor_component.so
+ouster_ros::OusterReplay;lib/libos_replay_component.so
+ouster_ros::OusterCloud;lib/libos_cloud_component.so
+ouster_ros::OusterImage;lib/libos_image_component.so
+ouster_ros::OusterDriver;lib/libos_driver_component.so

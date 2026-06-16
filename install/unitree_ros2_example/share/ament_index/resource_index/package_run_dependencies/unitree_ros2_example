@@ -1,1 +1,1 @@
-/home/ria4065/go2_ws/build/unitree_ros2_example/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+unitree_go;unitree_hg;unitree_api;rclcpp;std_msgs;rosbag2_cpp;ament_lint_auto;ament_lint_common

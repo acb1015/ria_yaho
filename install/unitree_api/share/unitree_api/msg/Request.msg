@@ -1,1 +1,3 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Request.msg
+RequestHeader header
+string parameter
+uint8[] binary

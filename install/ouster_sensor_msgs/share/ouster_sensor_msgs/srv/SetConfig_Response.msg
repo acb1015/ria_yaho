@@ -1,1 +1,2 @@
-/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_cmake/srv/SetConfig_Response.msg
+
+string config

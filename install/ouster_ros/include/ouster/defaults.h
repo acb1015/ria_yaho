@@ -1,1 +1,5 @@
-/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/defaults.h
+#pragma once
+
+constexpr int SHORT_HTTP_REQUEST_TIMEOUT_SECONDS = 4;
+constexpr int LONG_HTTP_REQUEST_TIMEOUT_SECONDS = 40;
+constexpr int DEFAULT_COLUMNS_PER_PACKET = 16;

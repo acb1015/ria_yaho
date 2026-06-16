@@ -1,1 +1,12 @@
-/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_cpp/ouster_sensor_msgs/srv/get_metadata.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef OUSTER_SENSOR_MSGS__SRV__GET_METADATA_HPP_
+#define OUSTER_SENSOR_MSGS__SRV__GET_METADATA_HPP_
+
+#include "ouster_sensor_msgs/srv/detail/get_metadata__struct.hpp"
+#include "ouster_sensor_msgs/srv/detail/get_metadata__builder.hpp"
+#include "ouster_sensor_msgs/srv/detail/get_metadata__traits.hpp"
+#include "ouster_sensor_msgs/srv/detail/get_metadata__type_support.hpp"
+
+#endif  // OUSTER_SENSOR_MSGS__SRV__GET_METADATA_HPP_

@@ -1,1 +1,0 @@
-/home/ria4065/go2_ws/build/ouster_ros/ouster-sdk/generated/ouster/impl/build.h

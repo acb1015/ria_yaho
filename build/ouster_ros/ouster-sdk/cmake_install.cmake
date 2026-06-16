@@ -42,6 +42,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ria4065/go2_ws/build/ouster_ros/ouster-sdk/generated/ouster")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/ria4065/go2_ws/build/ouster_ros/ouster-sdk/ouster_client/cmake_install.cmake")
@@ -69,5 +73,45 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ria4065/go2_ws/build/ouster_ros/ouster-sdk/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets-release.cmake")
   endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES
+    "/home/ria4065/go2_ws/build/ouster_ros/ouster-sdk/OusterSDKConfig.cmake"
+    "/home/ria4065/go2_ws/build/ouster_ros/ouster-sdk/OusterSDKConfigVersion.cmake"
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/cmake/Coverage.cmake"
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/cmake/VcpkgEnv.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/cmake/FindEigen3.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/cmake/Findlibtins.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/cmake/Findlibzip.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/cmake/FindCURL.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/cmake/Findglfw3.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/cmake/FindPcap.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/LICENSE"
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/LICENSE-bin"
+    )
 endif()
 

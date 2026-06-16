@@ -1,1 +1,4 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Go2FrontVideoData.msg
+uint64 time_frame
+uint8[] video720p
+uint8[] video360p
+uint8[] video180p 

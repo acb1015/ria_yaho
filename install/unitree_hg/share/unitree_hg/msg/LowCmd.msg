@@ -1,1 +1,7 @@
-/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/LowCmd.msg
+uint8 mode_pr
+uint8 mode_machine
+
+MotorCmd[35] motor_cmd
+
+uint32[4] reserve
+uint32 crc
