@@ -1,0 +1,1086 @@
+[0.000000] (-) TimerEvent: {}
+[0.001014] (unitree_api) JobQueued: {'identifier': 'unitree_api', 'dependencies': OrderedDict()}
+[0.001290] (unitree_go) JobQueued: {'identifier': 'unitree_go', 'dependencies': OrderedDict()}
+[0.001529] (unitree_hg) JobQueued: {'identifier': 'unitree_hg', 'dependencies': OrderedDict()}
+[0.001631] (unitree_sdk2) JobQueued: {'identifier': 'unitree_sdk2', 'dependencies': OrderedDict()}
+[0.001830] (unitree_ros2_example) JobQueued: {'identifier': 'unitree_ros2_example', 'dependencies': OrderedDict([('unitree_api', '/home/ria4065/go2_ws/install/unitree_api'), ('unitree_go', '/home/ria4065/go2_ws/install/unitree_go'), ('unitree_hg', '/home/ria4065/go2_ws/install/unitree_hg')])}
+[0.001898] (unitree_api) JobStarted: {'identifier': 'unitree_api'}
+[0.012733] (unitree_go) JobStarted: {'identifier': 'unitree_go'}
+[0.019393] (unitree_hg) JobStarted: {'identifier': 'unitree_hg'}
+[0.025519] (unitree_sdk2) JobStarted: {'identifier': 'unitree_sdk2'}
+[0.036455] (unitree_api) JobProgress: {'identifier': 'unitree_api', 'progress': 'cmake'}
+[0.044550] (unitree_api) Command: {'cmd': ['/usr/bin/cmake', '/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ria4065/go2_ws/install/unitree_api'], 'cwd': '/home/ria4065/go2_ws/build/unitree_api', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_api'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.049175] (unitree_go) JobProgress: {'identifier': 'unitree_go', 'progress': 'cmake'}
+[0.049363] (unitree_go) Command: {'cmd': ['/usr/bin/cmake', '/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ria4065/go2_ws/install/unitree_go'], 'cwd': '/home/ria4065/go2_ws/build/unitree_go', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_go'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.056500] (unitree_hg) JobProgress: {'identifier': 'unitree_hg', 'progress': 'cmake'}
+[0.056590] (unitree_hg) Command: {'cmd': ['/usr/bin/cmake', '/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ria4065/go2_ws/install/unitree_hg'], 'cwd': '/home/ria4065/go2_ws/build/unitree_hg', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_hg'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060181] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'cmake'}
+[0.061368] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'build'}
+[0.063511] (unitree_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ria4065/go2_ws/build/unitree_sdk2', '--', '-j12', '-l12'], 'cwd': '/home/ria4065/go2_ws/build/unitree_sdk2', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_sdk2'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX')]), 'shell': False}
+[0.070786] (unitree_api) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.071689] (unitree_go) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.088623] (unitree_hg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099056] (-) TimerEvent: {}
+[0.178221] (unitree_sdk2) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.o\x1b[0m\n'}
+[0.178932] (unitree_sdk2) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o\x1b[0m\n'}
+[0.185287] (unitree_sdk2) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o\x1b[0m\n'}
+[0.190364] (unitree_sdk2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o\x1b[0m\n'}
+[0.190858] (unitree_sdk2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.o\x1b[0m\n'}
+[0.191036] (unitree_sdk2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o\x1b[0m\n'}
+[0.192617] (unitree_sdk2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o\x1b[0m\n'}
+[0.197146] (unitree_sdk2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o\x1b[0m\n'}
+[0.199208] (-) TimerEvent: {}
+[0.208831] (unitree_sdk2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.o\x1b[0m\n'}
+[0.209532] (unitree_sdk2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.o\x1b[0m\n'}
+[0.209832] (unitree_sdk2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object example/b2/CMakeFiles/b2_sport_client.dir/b2_sport_client.cpp.o\x1b[0m\n'}
+[0.219995] (unitree_sdk2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o\x1b[0m\n'}
+[0.299381] (-) TimerEvent: {}
+[0.400338] (-) TimerEvent: {}
+[0.438456] (unitree_go) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.452644] (unitree_api) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.486002] (unitree_hg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500514] (-) TimerEvent: {}
+[0.601525] (-) TimerEvent: {}
+[0.612612] (unitree_go) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.619920] (unitree_api) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.661000] (unitree_go) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.663176] (unitree_api) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.701730] (-) TimerEvent: {}
+[0.708933] (unitree_hg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.737754] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.738256] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.747299] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.748077] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.766697] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.775671] (unitree_hg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.777785] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801951] (-) TimerEvent: {}
+[0.806623] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.831336] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.874502] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.878752] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.888872] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.901830] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902347] (-) TimerEvent: {}
+[0.908973] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.944370] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.981743] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002608] (-) TimerEvent: {}
+[1.060849] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.076423] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.077169] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.102952] (-) TimerEvent: {}
+[1.103973] (unitree_api) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[1.104657] (unitree_api) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[1.105023] (unitree_api) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.105334] (unitree_api) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[1.105600] (unitree_api) StderrLine: {'line': b'\n'}
+[1.105862] (unitree_api) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.106135] (unitree_api) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[1.106357] (unitree_api) StderrLine: {'line': b'\n'}
+[1.106623] (unitree_api) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[1.106878] (unitree_api) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[1.107099] (unitree_api) StderrLine: {'line': b'\n'}
+[1.107336] (unitree_api) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[1.107564] (unitree_api) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[1.107788] (unitree_api) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[1.108009] (unitree_api) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[1.108208] (unitree_api) StderrLine: {'line': b'\n'}
+[1.108618] (unitree_api) StderrLine: {'line': b'\x1b[0m\n'}
+[1.109438] (unitree_api) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.109751] (unitree_api) StdoutLine: {'line': b'See also "/home/ria4065/go2_ws/build/unitree_api/CMakeFiles/CMakeOutput.log".\n'}
+[1.151235] (unitree_api) CommandEnded: {'returncode': 1}
+[1.152412] (unitree_hg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[1.152705] (unitree_hg) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[1.152861] (unitree_hg) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.152996] (unitree_hg) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[1.153122] (unitree_hg) StderrLine: {'line': b'\n'}
+[1.153245] (unitree_hg) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.153367] (unitree_hg) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[1.153483] (unitree_hg) StderrLine: {'line': b'\n'}
+[1.153597] (unitree_hg) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[1.153712] (unitree_hg) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[1.153828] (unitree_hg) StderrLine: {'line': b'\n'}
+[1.153939] (unitree_hg) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[1.154049] (unitree_hg) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[1.154160] (unitree_hg) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[1.154306] (unitree_hg) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[1.154420] (unitree_hg) StderrLine: {'line': b'\n'}
+[1.154533] (unitree_hg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.154690] (unitree_hg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.154870] (unitree_hg) StdoutLine: {'line': b'See also "/home/ria4065/go2_ws/build/unitree_hg/CMakeFiles/CMakeOutput.log".\n'}
+[1.160534] (unitree_hg) CommandEnded: {'returncode': 1}
+[1.176308] (unitree_go) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[1.176873] (unitree_go) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[1.177066] (unitree_go) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.177205] (unitree_go) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[1.177333] (unitree_go) StderrLine: {'line': b'\n'}
+[1.177456] (unitree_go) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.177578] (unitree_go) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[1.177695] (unitree_go) StderrLine: {'line': b'\n'}
+[1.177811] (unitree_go) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[1.177924] (unitree_go) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[1.178034] (unitree_go) StderrLine: {'line': b'\n'}
+[1.178142] (unitree_go) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[1.178254] (unitree_go) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[1.178369] (unitree_go) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[1.178482] (unitree_go) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[1.178667] (unitree_go) StderrLine: {'line': b'\n'}
+[1.178923] (unitree_go) StderrLine: {'line': b'\x1b[0m\n'}
+[1.179561] (unitree_go) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.179740] (unitree_go) StdoutLine: {'line': b'See also "/home/ria4065/go2_ws/build/unitree_go/CMakeFiles/CMakeOutput.log".\n'}
+[1.203072] (-) TimerEvent: {}
+[1.250985] (unitree_hg) JobEnded: {'identifier': 'unitree_hg', 'rc': 1}
+[1.280875] (unitree_api) JobEnded: {'identifier': 'unitree_api', 'rc': 1}
+[1.285277] (unitree_go) JobEnded: {'identifier': 'unitree_go', 'rc': 'SIGINT'}
+[1.304284] (-) TimerEvent: {}
+[1.407683] (-) TimerEvent: {}
+[1.509215] (-) TimerEvent: {}
+[1.610331] (-) TimerEvent: {}
+[1.711407] (-) TimerEvent: {}
+[1.812571] (-) TimerEvent: {}
+[1.913764] (-) TimerEvent: {}
+[2.015053] (-) TimerEvent: {}
+[2.116598] (-) TimerEvent: {}
+[2.217780] (-) TimerEvent: {}
+[2.318604] (-) TimerEvent: {}
+[2.419352] (-) TimerEvent: {}
+[2.520265] (-) TimerEvent: {}
+[2.621061] (-) TimerEvent: {}
+[2.721842] (-) TimerEvent: {}
+[2.822681] (-) TimerEvent: {}
+[2.923434] (-) TimerEvent: {}
+[3.024214] (-) TimerEvent: {}
+[3.125353] (-) TimerEvent: {}
+[3.226456] (-) TimerEvent: {}
+[3.327601] (-) TimerEvent: {}
+[3.428695] (-) TimerEvent: {}
+[3.530426] (-) TimerEvent: {}
+[3.631479] (-) TimerEvent: {}
+[3.732495] (-) TimerEvent: {}
+[3.833576] (-) TimerEvent: {}
+[3.934627] (-) TimerEvent: {}
+[3.952829] (unitree_sdk2) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_video_client\x1b[0m\n'}
+[4.034813] (-) TimerEvent: {}
+[4.042320] (unitree_sdk2) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_vui_client\x1b[0m\n'}
+[4.135002] (-) TimerEvent: {}
+[4.177074] (unitree_sdk2) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_robot_state_client\x1b[0m\n'}
+[4.203989] (unitree_sdk2) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/test_jsonize\x1b[0m\n'}
+[4.235198] (-) TimerEvent: {}
+[4.336231] (-) TimerEvent: {}
+[4.437469] (-) TimerEvent: {}
+[4.538595] (-) TimerEvent: {}
+[4.621044] (unitree_sdk2) StdoutLine: {'line': b'[ 16%] Built target test_jsonize\n'}
+[4.638779] (-) TimerEvent: {}
+[4.675502] (unitree_sdk2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o\x1b[0m\n'}
+[4.738978] (-) TimerEvent: {}
+[4.749217] (unitree_sdk2) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/b2_sport_client\x1b[0m\n'}
+[4.839184] (-) TimerEvent: {}
+[4.894475] (unitree_sdk2) StdoutLine: {'line': b'[ 18%] Built target go2_video_client\n'}
+[4.939373] (-) TimerEvent: {}
+[4.944453] (unitree_sdk2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_loco_client.dir/high_level/h1_loco_client_example.cpp.o\x1b[0m\n'}
+[5.039580] (-) TimerEvent: {}
+[5.047399] (unitree_sdk2) StdoutLine: {'line': b'[ 19%] Built target go2_vui_client\n'}
+[5.111979] (unitree_sdk2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o\x1b[0m\n'}
+[5.139789] (-) TimerEvent: {}
+[5.240518] (-) TimerEvent: {}
+[5.325284] (unitree_sdk2) StdoutLine: {'line': b'[ 20%] Built target go2_robot_state_client\n'}
+[5.340744] (-) TimerEvent: {}
+[5.375263] (unitree_sdk2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_27dof_example.dir/low_level/h1_27dof_example.cpp.o\x1b[0m\n'}
+[5.440998] (-) TimerEvent: {}
+[5.541811] (-) TimerEvent: {}
+[5.642661] (-) TimerEvent: {}
+[5.714080] (unitree_sdk2) StdoutLine: {'line': b'[ 21%] Built target b2_sport_client\n'}
+[5.743181] (-) TimerEvent: {}
+[5.762897] (unitree_sdk2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_2_ankle_track.dir/low_level/h1_2_ankle_track.cpp.o\x1b[0m\n'}
+[5.843386] (-) TimerEvent: {}
+[5.944464] (-) TimerEvent: {}
+[6.045497] (-) TimerEvent: {}
+[6.146545] (-) TimerEvent: {}
+[6.247298] (-) TimerEvent: {}
+[6.348085] (-) TimerEvent: {}
+[6.449155] (-) TimerEvent: {}
+[6.550257] (-) TimerEvent: {}
+[6.651297] (-) TimerEvent: {}
+[6.752384] (-) TimerEvent: {}
+[6.853476] (-) TimerEvent: {}
+[6.954601] (-) TimerEvent: {}
+[7.055628] (-) TimerEvent: {}
+[7.156373] (-) TimerEvent: {}
+[7.257093] (-) TimerEvent: {}
+[7.357867] (-) TimerEvent: {}
+[7.458647] (-) TimerEvent: {}
+[7.559400] (-) TimerEvent: {}
+[7.660177] (-) TimerEvent: {}
+[7.763403] (-) TimerEvent: {}
+[7.866179] (-) TimerEvent: {}
+[7.966928] (-) TimerEvent: {}
+[8.067689] (-) TimerEvent: {}
+[8.168474] (-) TimerEvent: {}
+[8.269260] (-) TimerEvent: {}
+[8.370042] (-) TimerEvent: {}
+[8.470766] (-) TimerEvent: {}
+[8.571497] (-) TimerEvent: {}
+[8.673007] (-) TimerEvent: {}
+[8.773787] (-) TimerEvent: {}
+[8.874577] (-) TimerEvent: {}
+[8.975306] (-) TimerEvent: {}
+[9.076059] (-) TimerEvent: {}
+[9.176815] (-) TimerEvent: {}
+[9.277524] (-) TimerEvent: {}
+[9.378246] (-) TimerEvent: {}
+[9.479266] (-) TimerEvent: {}
+[9.580356] (-) TimerEvent: {}
+[9.681429] (-) TimerEvent: {}
+[9.782471] (-) TimerEvent: {}
+[9.883527] (-) TimerEvent: {}
+[9.984576] (-) TimerEvent: {}
+[10.085738] (-) TimerEvent: {}
+[10.186580] (-) TimerEvent: {}
+[10.287667] (-) TimerEvent: {}
+[10.388761] (-) TimerEvent: {}
+[10.489509] (-) TimerEvent: {}
+[10.590312] (-) TimerEvent: {}
+[10.691055] (-) TimerEvent: {}
+[10.782675] (unitree_sdk2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o\x1b[0m\n'}
+[10.791253] (-) TimerEvent: {}
+[10.892262] (-) TimerEvent: {}
+[10.993324] (-) TimerEvent: {}
+[11.094381] (-) TimerEvent: {}
+[11.195473] (-) TimerEvent: {}
+[11.296545] (-) TimerEvent: {}
+[11.397639] (-) TimerEvent: {}
+[11.498738] (-) TimerEvent: {}
+[11.599834] (-) TimerEvent: {}
+[11.701340] (-) TimerEvent: {}
+[11.802375] (-) TimerEvent: {}
+[11.903478] (-) TimerEvent: {}
+[12.004552] (-) TimerEvent: {}
+[12.105606] (-) TimerEvent: {}
+[12.151211] (unitree_sdk2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o\x1b[0m\n'}
+[12.203085] (unitree_sdk2) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_loco_client\x1b[0m\n'}
+[12.205792] (-) TimerEvent: {}
+[12.306799] (-) TimerEvent: {}
+[12.407860] (-) TimerEvent: {}
+[12.508993] (-) TimerEvent: {}
+[12.610088] (-) TimerEvent: {}
+[12.709172] (unitree_sdk2) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/test_publisher\x1b[0m\n'}
+[12.710204] (-) TimerEvent: {}
+[12.811188] (-) TimerEvent: {}
+[12.912309] (-) TimerEvent: {}
+[13.013405] (-) TimerEvent: {}
+[13.114491] (-) TimerEvent: {}
+[13.201369] (unitree_sdk2) StdoutLine: {'line': b'[ 27%] Built target h1_loco_client\n'}
+[13.214745] (-) TimerEvent: {}
+[13.248187] (unitree_sdk2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_arm_sdk_dds_example.dir/high_level/h1_arm_sdk_dds_example.cpp.o\x1b[0m\n'}
+[13.314940] (-) TimerEvent: {}
+[13.348833] (unitree_sdk2) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/advanced_gamepad\x1b[0m\n'}
+[13.415114] (-) TimerEvent: {}
+[13.515913] (-) TimerEvent: {}
+[13.555731] (unitree_sdk2) StdoutLine: {'line': b'[ 29%] Built target test_publisher\n'}
+[13.608042] (unitree_sdk2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_2_arm_sdk_dds_example.dir/high_level/h1_2_arm_sdk_dds_example.cpp.o\x1b[0m\n'}
+[13.616115] (-) TimerEvent: {}
+[13.717130] (-) TimerEvent: {}
+[13.818287] (-) TimerEvent: {}
+[13.842799] (unitree_sdk2) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/test_subscriber\x1b[0m\n'}
+[13.918545] (-) TimerEvent: {}
+[14.019620] (-) TimerEvent: {}
+[14.112909] (unitree_sdk2) StdoutLine: {'line': b'[ 31%] Built target advanced_gamepad\n'}
+[14.119826] (-) TimerEvent: {}
+[14.197357] (unitree_sdk2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.o\x1b[0m\n'}
+[14.220008] (-) TimerEvent: {}
+[14.321048] (-) TimerEvent: {}
+[14.422126] (-) TimerEvent: {}
+[14.523214] (-) TimerEvent: {}
+[14.573416] (unitree_sdk2) StdoutLine: {'line': b'[ 32%] Built target test_subscriber\n'}
+[14.623426] (-) TimerEvent: {}
+[14.625507] (unitree_sdk2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.o\x1b[0m\n'}
+[14.723653] (-) TimerEvent: {}
+[14.824816] (-) TimerEvent: {}
+[14.925877] (-) TimerEvent: {}
+[15.026923] (-) TimerEvent: {}
+[15.127957] (-) TimerEvent: {}
+[15.229692] (-) TimerEvent: {}
+[15.330761] (-) TimerEvent: {}
+[15.431875] (-) TimerEvent: {}
+[15.533532] (-) TimerEvent: {}
+[15.634612] (-) TimerEvent: {}
+[15.735681] (-) TimerEvent: {}
+[15.836753] (-) TimerEvent: {}
+[15.937762] (-) TimerEvent: {}
+[16.038831] (-) TimerEvent: {}
+[16.139885] (-) TimerEvent: {}
+[16.240930] (-) TimerEvent: {}
+[16.342013] (-) TimerEvent: {}
+[16.443105] (-) TimerEvent: {}
+[16.544268] (-) TimerEvent: {}
+[16.645036] (-) TimerEvent: {}
+[16.745795] (-) TimerEvent: {}
+[16.846613] (-) TimerEvent: {}
+[16.947356] (-) TimerEvent: {}
+[17.048409] (-) TimerEvent: {}
+[17.149895] (-) TimerEvent: {}
+[17.198886] (unitree_sdk2) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_sport_client\x1b[0m\n'}
+[17.250140] (-) TimerEvent: {}
+[17.351213] (-) TimerEvent: {}
+[17.452353] (-) TimerEvent: {}
+[17.553775] (-) TimerEvent: {}
+[17.654933] (-) TimerEvent: {}
+[17.756005] (-) TimerEvent: {}
+[17.857101] (-) TimerEvent: {}
+[17.958237] (-) TimerEvent: {}
+[18.059358] (-) TimerEvent: {}
+[18.160402] (-) TimerEvent: {}
+[18.242882] (unitree_sdk2) StdoutLine: {'line': b'[ 34%] Built target go2_sport_client\n'}
+[18.260625] (-) TimerEvent: {}
+[18.293688] (unitree_sdk2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.o\x1b[0m\n'}
+[18.360855] (-) TimerEvent: {}
+[18.461720] (-) TimerEvent: {}
+[18.562858] (-) TimerEvent: {}
+[18.663640] (-) TimerEvent: {}
+[18.764481] (-) TimerEvent: {}
+[18.867228] (-) TimerEvent: {}
+[18.968025] (-) TimerEvent: {}
+[19.068805] (-) TimerEvent: {}
+[19.169586] (-) TimerEvent: {}
+[19.270354] (-) TimerEvent: {}
+[19.371106] (-) TimerEvent: {}
+[19.471897] (-) TimerEvent: {}
+[19.572650] (-) TimerEvent: {}
+[19.673393] (-) TimerEvent: {}
+[19.774383] (-) TimerEvent: {}
+[19.875448] (-) TimerEvent: {}
+[19.976229] (-) TimerEvent: {}
+[20.077009] (-) TimerEvent: {}
+[20.177799] (-) TimerEvent: {}
+[20.278858] (-) TimerEvent: {}
+[20.380166] (-) TimerEvent: {}
+[20.485472] (-) TimerEvent: {}
+[20.586293] (-) TimerEvent: {}
+[20.687086] (-) TimerEvent: {}
+[20.787845] (-) TimerEvent: {}
+[20.888641] (-) TimerEvent: {}
+[20.989452] (-) TimerEvent: {}
+[21.090247] (-) TimerEvent: {}
+[21.191034] (-) TimerEvent: {}
+[21.291817] (-) TimerEvent: {}
+[21.392604] (-) TimerEvent: {}
+[21.486067] (unitree_sdk2) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_loco_client\x1b[0m\n'}
+[21.492834] (-) TimerEvent: {}
+[21.593949] (-) TimerEvent: {}
+[21.695016] (-) TimerEvent: {}
+[21.796598] (-) TimerEvent: {}
+[21.898162] (-) TimerEvent: {}
+[21.999145] (-) TimerEvent: {}
+[22.100210] (-) TimerEvent: {}
+[22.201234] (-) TimerEvent: {}
+[22.302324] (-) TimerEvent: {}
+[22.403455] (-) TimerEvent: {}
+[22.504488] (-) TimerEvent: {}
+[22.593675] (unitree_sdk2) StdoutLine: {'line': b'[ 36%] Built target g1_loco_client\n'}
+[22.604717] (-) TimerEvent: {}
+[22.705820] (-) TimerEvent: {}
+[22.730649] (unitree_sdk2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.o\x1b[0m\n'}
+[22.806058] (-) TimerEvent: {}
+[22.907702] (-) TimerEvent: {}
+[23.009868] (-) TimerEvent: {}
+[23.110975] (-) TimerEvent: {}
+[23.212043] (-) TimerEvent: {}
+[23.312822] (-) TimerEvent: {}
+[23.413607] (-) TimerEvent: {}
+[23.514383] (-) TimerEvent: {}
+[23.615144] (-) TimerEvent: {}
+[23.715882] (-) TimerEvent: {}
+[23.816698] (-) TimerEvent: {}
+[23.917553] (-) TimerEvent: {}
+[24.018283] (-) TimerEvent: {}
+[24.119069] (-) TimerEvent: {}
+[24.219871] (-) TimerEvent: {}
+[24.320677] (-) TimerEvent: {}
+[24.421451] (-) TimerEvent: {}
+[24.522257] (-) TimerEvent: {}
+[24.623047] (-) TimerEvent: {}
+[24.723833] (-) TimerEvent: {}
+[24.824653] (-) TimerEvent: {}
+[24.925462] (-) TimerEvent: {}
+[25.026264] (-) TimerEvent: {}
+[25.127366] (-) TimerEvent: {}
+[25.228451] (-) TimerEvent: {}
+[25.329270] (-) TimerEvent: {}
+[25.430054] (-) TimerEvent: {}
+[25.530790] (-) TimerEvent: {}
+[25.631545] (-) TimerEvent: {}
+[25.732308] (-) TimerEvent: {}
+[25.833384] (-) TimerEvent: {}
+[25.934604] (-) TimerEvent: {}
+[26.035658] (-) TimerEvent: {}
+[26.136428] (-) TimerEvent: {}
+[26.237232] (-) TimerEvent: {}
+[26.319765] (unitree_sdk2) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_low_level\x1b[0m\n'}
+[26.337443] (-) TimerEvent: {}
+[26.438241] (-) TimerEvent: {}
+[26.539339] (-) TimerEvent: {}
+[26.640399] (-) TimerEvent: {}
+[26.741485] (-) TimerEvent: {}
+[26.842691] (-) TimerEvent: {}
+[26.943715] (-) TimerEvent: {}
+[27.044751] (-) TimerEvent: {}
+[27.145818] (-) TimerEvent: {}
+[27.204025] (unitree_sdk2) StdoutLine: {'line': b'[ 38%] Built target go2_low_level\n'}
+[27.246029] (-) TimerEvent: {}
+[27.326621] (unitree_sdk2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o\x1b[0m\n'}
+[27.346218] (-) TimerEvent: {}
+[27.447214] (-) TimerEvent: {}
+[27.547982] (-) TimerEvent: {}
+[27.649133] (-) TimerEvent: {}
+[27.669408] (unitree_sdk2) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_stand_example\x1b[0m\n'}
+[27.680105] (unitree_sdk2) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_2_ankle_track\x1b[0m\n'}
+[27.749388] (-) TimerEvent: {}
+[27.850127] (-) TimerEvent: {}
+[27.952073] (-) TimerEvent: {}
+[28.053337] (-) TimerEvent: {}
+[28.154130] (-) TimerEvent: {}
+[28.254929] (-) TimerEvent: {}
+[28.355695] (-) TimerEvent: {}
+[28.456762] (-) TimerEvent: {}
+[28.557818] (-) TimerEvent: {}
+[28.562100] (unitree_sdk2) StdoutLine: {'line': b'[ 41%] Built target h1_2_ankle_track\n'}
+[28.616939] (unitree_sdk2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o\x1b[0m\n'}
+[28.662730] (-) TimerEvent: {}
+[28.758414] (unitree_sdk2) StdoutLine: {'line': b'[ 42%] Built target go2_stand_example\n'}
+[28.762930] (-) TimerEvent: {}
+[28.831335] (unitree_sdk2) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_27dof_example\x1b[0m\n'}
+[28.863087] (-) TimerEvent: {}
+[28.899708] (unitree_sdk2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_userctrl_dds_example.dir/high_level/g1_userctrl_dds_example.cpp.o\x1b[0m\n'}
+[28.963298] (-) TimerEvent: {}
+[29.064030] (-) TimerEvent: {}
+[29.164786] (-) TimerEvent: {}
+[29.265570] (-) TimerEvent: {}
+[29.366317] (-) TimerEvent: {}
+[29.467049] (-) TimerEvent: {}
+[29.567823] (-) TimerEvent: {}
+[29.668646] (-) TimerEvent: {}
+[29.743055] (unitree_sdk2) StdoutLine: {'line': b'[ 44%] Built target h1_27dof_example\n'}
+[29.768888] (-) TimerEvent: {}
+[29.793438] (unitree_sdk2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o\x1b[0m\n'}
+[29.869120] (-) TimerEvent: {}
+[29.970205] (-) TimerEvent: {}
+[30.071284] (-) TimerEvent: {}
+[30.172375] (-) TimerEvent: {}
+[30.273459] (-) TimerEvent: {}
+[30.374476] (-) TimerEvent: {}
+[30.475551] (-) TimerEvent: {}
+[30.576589] (-) TimerEvent: {}
+[30.676416] (unitree_sdk2) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/state_machine_example\x1b[0m\n'}
+[30.676912] (-) TimerEvent: {}
+[30.777743] (-) TimerEvent: {}
+[30.878861] (-) TimerEvent: {}
+[30.979638] (-) TimerEvent: {}
+[31.080398] (-) TimerEvent: {}
+[31.181136] (-) TimerEvent: {}
+[31.281909] (-) TimerEvent: {}
+[31.382727] (-) TimerEvent: {}
+[31.483457] (-) TimerEvent: {}
+[31.546697] (unitree_sdk2) StdoutLine: {'line': b'[ 46%] Built target state_machine_example\n'}
+[31.583668] (-) TimerEvent: {}
+[31.595071] (unitree_sdk2) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.o\x1b[0m\n'}
+[31.657099] (unitree_sdk2) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/b2_stand_example\x1b[0m\n'}
+[31.683846] (-) TimerEvent: {}
+[31.785909] (-) TimerEvent: {}
+[31.886707] (-) TimerEvent: {}
+[31.987415] (-) TimerEvent: {}
+[32.088102] (-) TimerEvent: {}
+[32.189007] (-) TimerEvent: {}
+[32.289852] (-) TimerEvent: {}
+[32.390744] (-) TimerEvent: {}
+[32.491479] (-) TimerEvent: {}
+[32.592253] (-) TimerEvent: {}
+[32.693015] (-) TimerEvent: {}
+[32.793814] (-) TimerEvent: {}
+[32.831569] (unitree_sdk2) StdoutLine: {'line': b'[ 48%] Built target b2_stand_example\n'}
+[32.894047] (-) TimerEvent: {}
+[32.902449] (unitree_sdk2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.o\x1b[0m\n'}
+[32.994270] (-) TimerEvent: {}
+[33.095447] (-) TimerEvent: {}
+[33.196488] (-) TimerEvent: {}
+[33.297150] (-) TimerEvent: {}
+[33.398617] (-) TimerEvent: {}
+[33.499513] (-) TimerEvent: {}
+[33.600383] (-) TimerEvent: {}
+[33.644747] (unitree_sdk2) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_low_level_example\x1b[0m\n'}
+[33.700615] (-) TimerEvent: {}
+[33.801437] (-) TimerEvent: {}
+[33.902248] (-) TimerEvent: {}
+[34.003019] (-) TimerEvent: {}
+[34.103816] (-) TimerEvent: {}
+[34.204595] (-) TimerEvent: {}
+[34.305512] (-) TimerEvent: {}
+[34.406595] (-) TimerEvent: {}
+[34.507620] (-) TimerEvent: {}
+[34.608727] (-) TimerEvent: {}
+[34.693468] (unitree_sdk2) StdoutLine: {'line': b'[ 51%] Built target h1_low_level_example\n'}
+[34.708938] (-) TimerEvent: {}
+[34.809728] (-) TimerEvent: {}
+[34.867534] (unitree_sdk2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_agv_client_example.dir/g1d/g1_agv_client_example.cpp.o\x1b[0m\n'}
+[34.910088] (-) TimerEvent: {}
+[35.013319] (-) TimerEvent: {}
+[35.114314] (-) TimerEvent: {}
+[35.200497] (unitree_sdk2) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_2_arm_sdk_dds_example\x1b[0m\n'}
+[35.214479] (-) TimerEvent: {}
+[35.315456] (-) TimerEvent: {}
+[35.416227] (-) TimerEvent: {}
+[35.517016] (-) TimerEvent: {}
+[35.617797] (-) TimerEvent: {}
+[35.718615] (-) TimerEvent: {}
+[35.819319] (-) TimerEvent: {}
+[35.920029] (-) TimerEvent: {}
+[36.020771] (-) TimerEvent: {}
+[36.121838] (-) TimerEvent: {}
+[36.195297] (unitree_sdk2) StdoutLine: {'line': b'[ 53%] Built target h1_2_arm_sdk_dds_example\n'}
+[36.222071] (-) TimerEvent: {}
+[36.251049] (unitree_sdk2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1d_arm_example.dir/g1d/g1d_arm_example.cpp.o\x1b[0m\n'}
+[36.322301] (-) TimerEvent: {}
+[36.423341] (-) TimerEvent: {}
+[36.524378] (-) TimerEvent: {}
+[36.625461] (-) TimerEvent: {}
+[36.726523] (-) TimerEvent: {}
+[36.813243] (unitree_sdk2) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_arm5_sdk_dds_example\x1b[0m\n'}
+[36.826718] (-) TimerEvent: {}
+[36.927708] (-) TimerEvent: {}
+[37.028729] (-) TimerEvent: {}
+[37.129731] (-) TimerEvent: {}
+[37.234508] (-) TimerEvent: {}
+[37.335920] (-) TimerEvent: {}
+[37.436953] (-) TimerEvent: {}
+[37.537983] (-) TimerEvent: {}
+[37.639011] (-) TimerEvent: {}
+[37.740020] (-) TimerEvent: {}
+[37.835289] (unitree_sdk2) StdoutLine: {'line': b'[ 55%] Built target g1_arm5_sdk_dds_example\n'}
+[37.840231] (-) TimerEvent: {}
+[37.901248] (unitree_sdk2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1d_height_control.dir/g1d/g1d_height_control.cpp.o\x1b[0m\n'}
+[37.940459] (-) TimerEvent: {}
+[38.041530] (-) TimerEvent: {}
+[38.059770] (unitree_sdk2) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_arm_sdk_dds_example\x1b[0m\n'}
+[38.141770] (-) TimerEvent: {}
+[38.242876] (-) TimerEvent: {}
+[38.343955] (-) TimerEvent: {}
+[38.445040] (-) TimerEvent: {}
+[38.546102] (-) TimerEvent: {}
+[38.647167] (-) TimerEvent: {}
+[38.748209] (-) TimerEvent: {}
+[38.849256] (-) TimerEvent: {}
+[38.854683] (unitree_sdk2) StdoutLine: {'line': b'[ 57%] Built target h1_arm_sdk_dds_example\n'}
+[38.949469] (-) TimerEvent: {}
+[39.022919] (unitree_sdk2) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_hand_sdk_example.dir/high_level/g1_hand_sdk_example.cpp.o\x1b[0m\n'}
+[39.049702] (-) TimerEvent: {}
+[39.150816] (-) TimerEvent: {}
+[39.251885] (-) TimerEvent: {}
+[39.266914] (unitree_sdk2) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_arm7_sdk_dds_example\x1b[0m\n'}
+[39.352120] (-) TimerEvent: {}
+[39.453273] (-) TimerEvent: {}
+[39.545144] (unitree_sdk2) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_agv_client_example\x1b[0m\n'}
+[39.553496] (-) TimerEvent: {}
+[39.654287] (-) TimerEvent: {}
+[39.755047] (-) TimerEvent: {}
+[39.855817] (-) TimerEvent: {}
+[39.956564] (-) TimerEvent: {}
+[40.057354] (-) TimerEvent: {}
+[40.158103] (-) TimerEvent: {}
+[40.259230] (-) TimerEvent: {}
+[40.263282] (unitree_sdk2) StdoutLine: {'line': b'[ 60%] Built target g1_arm7_sdk_dds_example\n'}
+[40.359443] (-) TimerEvent: {}
+[40.444618] (unitree_sdk2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o\x1b[0m\n'}
+[40.459639] (-) TimerEvent: {}
+[40.560803] (-) TimerEvent: {}
+[40.661913] (-) TimerEvent: {}
+[40.688120] (unitree_sdk2) StdoutLine: {'line': b'[ 61%] Built target g1_agv_client_example\n'}
+[40.762138] (-) TimerEvent: {}
+[40.860882] (unitree_sdk2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object example/go2w/CMakeFiles/go2w_stand_example.dir/go2w_stand_example.cpp.o\x1b[0m\n'}
+[40.862266] (-) TimerEvent: {}
+[40.963212] (-) TimerEvent: {}
+[41.064287] (-) TimerEvent: {}
+[41.165047] (-) TimerEvent: {}
+[41.265766] (-) TimerEvent: {}
+[41.366502] (-) TimerEvent: {}
+[41.467382] (-) TimerEvent: {}
+[41.568196] (-) TimerEvent: {}
+[41.669002] (-) TimerEvent: {}
+[41.769819] (-) TimerEvent: {}
+[41.780044] (unitree_sdk2) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_audio_client_example\x1b[0m\n'}
+[41.870019] (-) TimerEvent: {}
+[41.970767] (-) TimerEvent: {}
+[42.071594] (-) TimerEvent: {}
+[42.172412] (-) TimerEvent: {}
+[42.273203] (-) TimerEvent: {}
+[42.374012] (-) TimerEvent: {}
+[42.475133] (-) TimerEvent: {}
+[42.576146] (-) TimerEvent: {}
+[42.677175] (-) TimerEvent: {}
+[42.778319] (-) TimerEvent: {}
+[42.879150] (-) TimerEvent: {}
+[42.979916] (-) TimerEvent: {}
+[43.067178] (unitree_sdk2) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_arm_action_example\x1b[0m\n'}
+[43.080134] (-) TimerEvent: {}
+[43.181188] (-) TimerEvent: {}
+[43.243924] (unitree_sdk2) StdoutLine: {'line': b'[ 64%] Built target g1_audio_client_example\n'}
+[43.281403] (-) TimerEvent: {}
+[43.382513] (-) TimerEvent: {}
+[43.399480] (unitree_sdk2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object example/b2w/CMakeFiles/b2w_sport_client.dir/b2w_sport_client.cpp.o\x1b[0m\n'}
+[43.482754] (-) TimerEvent: {}
+[43.583839] (-) TimerEvent: {}
+[43.684926] (-) TimerEvent: {}
+[43.785711] (-) TimerEvent: {}
+[43.886474] (-) TimerEvent: {}
+[43.987226] (-) TimerEvent: {}
+[44.087944] (-) TimerEvent: {}
+[44.188690] (-) TimerEvent: {}
+[44.289458] (-) TimerEvent: {}
+[44.390188] (-) TimerEvent: {}
+[44.490903] (-) TimerEvent: {}
+[44.591642] (-) TimerEvent: {}
+[44.692392] (-) TimerEvent: {}
+[44.714657] (unitree_sdk2) StdoutLine: {'line': b'[ 65%] Built target g1_arm_action_example\n'}
+[44.792705] (-) TimerEvent: {}
+[44.893501] (-) TimerEvent: {}
+[44.899170] (unitree_sdk2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object example/b2w/CMakeFiles/b2w_stand_example.dir/b2w_stand_example.cpp.o\x1b[0m\n'}
+[44.993745] (-) TimerEvent: {}
+[45.094539] (-) TimerEvent: {}
+[45.195331] (-) TimerEvent: {}
+[45.296084] (-) TimerEvent: {}
+[45.396834] (-) TimerEvent: {}
+[45.497627] (-) TimerEvent: {}
+[45.598762] (-) TimerEvent: {}
+[45.699803] (-) TimerEvent: {}
+[45.800831] (-) TimerEvent: {}
+[45.901895] (-) TimerEvent: {}
+[46.002981] (-) TimerEvent: {}
+[46.104045] (-) TimerEvent: {}
+[46.205152] (-) TimerEvent: {}
+[46.306234] (-) TimerEvent: {}
+[46.407281] (-) TimerEvent: {}
+[46.511476] (-) TimerEvent: {}
+[46.612573] (-) TimerEvent: {}
+[46.713663] (-) TimerEvent: {}
+[46.814440] (-) TimerEvent: {}
+[46.915546] (-) TimerEvent: {}
+[47.016629] (-) TimerEvent: {}
+[47.117711] (-) TimerEvent: {}
+[47.218761] (-) TimerEvent: {}
+[47.319478] (-) TimerEvent: {}
+[47.420209] (-) TimerEvent: {}
+[47.520976] (-) TimerEvent: {}
+[47.622051] (-) TimerEvent: {}
+[47.723095] (-) TimerEvent: {}
+[47.824201] (-) TimerEvent: {}
+[47.925297] (-) TimerEvent: {}
+[48.026387] (-) TimerEvent: {}
+[48.127525] (-) TimerEvent: {}
+[48.228534] (-) TimerEvent: {}
+[48.259265] (unitree_sdk2) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/b2w_sport_client\x1b[0m\n'}
+[48.328729] (-) TimerEvent: {}
+[48.429834] (-) TimerEvent: {}
+[48.530904] (-) TimerEvent: {}
+[48.631962] (-) TimerEvent: {}
+[48.733075] (-) TimerEvent: {}
+[48.833866] (-) TimerEvent: {}
+[48.934655] (-) TimerEvent: {}
+[49.035379] (-) TimerEvent: {}
+[49.136130] (-) TimerEvent: {}
+[49.236848] (-) TimerEvent: {}
+[49.337596] (-) TimerEvent: {}
+[49.438378] (-) TimerEvent: {}
+[49.539154] (-) TimerEvent: {}
+[49.640254] (-) TimerEvent: {}
+[49.741216] (-) TimerEvent: {}
+[49.756696] (unitree_sdk2) StdoutLine: {'line': b'[ 67%] Built target b2w_sport_client\n'}
+[49.841439] (-) TimerEvent: {}
+[49.928934] (unitree_sdk2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object example/a2/CMakeFiles/a2_sport_client.dir/sport/a2_sport_client.cpp.o\x1b[0m\n'}
+[49.941667] (-) TimerEvent: {}
+[50.040982] (unitree_sdk2) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_hand_sdk_example\x1b[0m\n'}
+[50.041747] (-) TimerEvent: {}
+[50.142639] (-) TimerEvent: {}
+[50.243689] (-) TimerEvent: {}
+[50.344790] (-) TimerEvent: {}
+[50.372849] (unitree_sdk2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1d_height_control\x1b[0m\n'}
+[50.445035] (-) TimerEvent: {}
+[50.546170] (-) TimerEvent: {}
+[50.600855] (unitree_sdk2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_userctrl_dds_example\x1b[0m\n'}
+[50.646411] (-) TimerEvent: {}
+[50.747577] (-) TimerEvent: {}
+[50.848783] (-) TimerEvent: {}
+[50.949943] (-) TimerEvent: {}
+[51.051078] (-) TimerEvent: {}
+[51.152203] (-) TimerEvent: {}
+[51.253339] (-) TimerEvent: {}
+[51.354521] (-) TimerEvent: {}
+[51.392115] (unitree_sdk2) StdoutLine: {'line': b'[ 71%] Built target g1_hand_sdk_example\n'}
+[51.454770] (-) TimerEvent: {}
+[51.532087] (unitree_sdk2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object example/a2/CMakeFiles/a2_sport_state.dir/sport/a2_sport_state.cpp.o\x1b[0m\n'}
+[51.554956] (-) TimerEvent: {}
+[51.590065] (unitree_sdk2) StdoutLine: {'line': b'[ 72%] Built target g1_userctrl_dds_example\n'}
+[51.641079] (unitree_sdk2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object example/a2/CMakeFiles/a2_audio_client_example.dir/audio/a2_audio_client_example.cpp.o\x1b[0m\n'}
+[51.655168] (-) TimerEvent: {}
+[51.756004] (-) TimerEvent: {}
+[51.856825] (-) TimerEvent: {}
+[51.915603] (unitree_sdk2) StdoutLine: {'line': b'[ 73%] Built target g1d_height_control\n'}
+[51.957047] (-) TimerEvent: {}
+[52.057851] (-) TimerEvent: {}
+[52.102738] (unitree_sdk2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object example/r1/CMakeFiles/r1_loco_client.dir/high_level/r1_loco_client_example.cpp.o\x1b[0m\n'}
+[52.158108] (-) TimerEvent: {}
+[52.183199] (unitree_sdk2) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_ankle_swing_example\x1b[0m\n'}
+[52.258367] (-) TimerEvent: {}
+[52.359166] (-) TimerEvent: {}
+[52.459933] (-) TimerEvent: {}
+[52.560659] (-) TimerEvent: {}
+[52.661398] (-) TimerEvent: {}
+[52.762478] (-) TimerEvent: {}
+[52.863221] (-) TimerEvent: {}
+[52.964041] (-) TimerEvent: {}
+[53.064884] (-) TimerEvent: {}
+[53.165658] (-) TimerEvent: {}
+[53.266391] (-) TimerEvent: {}
+[53.367139] (-) TimerEvent: {}
+[53.468226] (-) TimerEvent: {}
+[53.569333] (-) TimerEvent: {}
+[53.670456] (-) TimerEvent: {}
+[53.771472] (-) TimerEvent: {}
+[53.872212] (-) TimerEvent: {}
+[53.928279] (unitree_sdk2) StdoutLine: {'line': b'[ 76%] Built target g1_ankle_swing_example\n'}
+[53.972430] (-) TimerEvent: {}
+[54.011820] (unitree_sdk2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object example/r1/CMakeFiles/r1_ankle_swing_example.dir/low_level/r1_ankle_swing_example.cpp.o\x1b[0m\n'}
+[54.032562] (unitree_sdk2) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_termination\x1b[0m\n'}
+[54.072663] (-) TimerEvent: {}
+[54.173469] (-) TimerEvent: {}
+[54.274281] (-) TimerEvent: {}
+[54.375077] (-) TimerEvent: {}
+[54.475837] (-) TimerEvent: {}
+[54.576644] (-) TimerEvent: {}
+[54.677435] (-) TimerEvent: {}
+[54.778307] (-) TimerEvent: {}
+[54.879124] (-) TimerEvent: {}
+[54.979913] (-) TimerEvent: {}
+[55.080713] (-) TimerEvent: {}
+[55.181538] (-) TimerEvent: {}
+[55.256228] (unitree_sdk2) StdoutLine: {'line': b'[ 78%] Built target g1_termination\n'}
+[55.281757] (-) TimerEvent: {}
+[55.382914] (-) TimerEvent: {}
+[55.402783] (unitree_sdk2) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object example/r1/CMakeFiles/r1_audio_client_example.dir/audio/r1_audio_client_example.cpp.o\x1b[0m\n'}
+[55.483102] (-) TimerEvent: {}
+[55.529715] (unitree_sdk2) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_dex3_example\x1b[0m\n'}
+[55.583306] (-) TimerEvent: {}
+[55.684071] (-) TimerEvent: {}
+[55.784846] (-) TimerEvent: {}
+[55.885596] (-) TimerEvent: {}
+[55.986361] (-) TimerEvent: {}
+[56.087176] (-) TimerEvent: {}
+[56.187925] (-) TimerEvent: {}
+[56.288733] (-) TimerEvent: {}
+[56.296284] (unitree_sdk2) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/a2_sport_client\x1b[0m\n'}
+[56.388956] (-) TimerEvent: {}
+[56.490124] (-) TimerEvent: {}
+[56.539542] (unitree_sdk2) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2w_sport_client\x1b[0m\n'}
+[56.590334] (-) TimerEvent: {}
+[56.675665] (unitree_sdk2) StdoutLine: {'line': b'[ 82%] Built target g1_dex3_example\n'}
+[56.690547] (-) TimerEvent: {}
+[56.791581] (-) TimerEvent: {}
+[56.866172] (unitree_sdk2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object example/h2/CMakeFiles/h2_loco_client.dir/high_level/h2_loco_client_example.cpp.o\x1b[0m\n'}
+[56.891805] (-) TimerEvent: {}
+[56.992933] (-) TimerEvent: {}
+[57.094146] (-) TimerEvent: {}
+[57.195292] (-) TimerEvent: {}
+[57.276908] (unitree_sdk2) StdoutLine: {'line': b'[ 83%] Built target a2_sport_client\n'}
+[57.295484] (-) TimerEvent: {}
+[57.396661] (-) TimerEvent: {}
+[57.448364] (unitree_sdk2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object example/h2/CMakeFiles/h2_ankle_swing_example.dir/low_level/h2_ankle_swing_example.cpp.o\x1b[0m\n'}
+[57.496894] (-) TimerEvent: {}
+[57.598085] (-) TimerEvent: {}
+[57.680484] (unitree_sdk2) StdoutLine: {'line': b'[ 84%] Built target go2w_sport_client\n'}
+[57.698313] (-) TimerEvent: {}
+[57.745008] (unitree_sdk2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object example/as2/CMakeFiles/as2_sport_client.dir/sport/as2_sport_client.cpp.o\x1b[0m\n'}
+[57.798575] (-) TimerEvent: {}
+[57.899679] (-) TimerEvent: {}
+[58.000715] (-) TimerEvent: {}
+[58.101814] (-) TimerEvent: {}
+[58.202952] (-) TimerEvent: {}
+[58.304001] (-) TimerEvent: {}
+[58.405036] (-) TimerEvent: {}
+[58.506181] (-) TimerEvent: {}
+[58.606894] (-) TimerEvent: {}
+[58.639148] (unitree_sdk2) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/r1_loco_client\x1b[0m\n'}
+[58.707109] (-) TimerEvent: {}
+[58.807892] (-) TimerEvent: {}
+[58.908707] (-) TimerEvent: {}
+[59.009556] (-) TimerEvent: {}
+[59.110366] (-) TimerEvent: {}
+[59.211137] (-) TimerEvent: {}
+[59.311909] (-) TimerEvent: {}
+[59.412706] (-) TimerEvent: {}
+[59.513537] (-) TimerEvent: {}
+[59.614328] (-) TimerEvent: {}
+[59.715088] (-) TimerEvent: {}
+[59.815856] (-) TimerEvent: {}
+[59.916643] (-) TimerEvent: {}
+[60.017468] (-) TimerEvent: {}
+[60.118271] (-) TimerEvent: {}
+[60.219077] (-) TimerEvent: {}
+[60.319841] (-) TimerEvent: {}
+[60.335703] (unitree_sdk2) StdoutLine: {'line': b'[ 86%] Built target r1_loco_client\n'}
+[60.420047] (-) TimerEvent: {}
+[60.512701] (unitree_sdk2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object example/as2/CMakeFiles/as2_sport_state.dir/sport/as2_sport_state.cpp.o\x1b[0m\n'}
+[60.520232] (-) TimerEvent: {}
+[60.621004] (-) TimerEvent: {}
+[60.721967] (-) TimerEvent: {}
+[60.822773] (-) TimerEvent: {}
+[60.923553] (-) TimerEvent: {}
+[60.999211] (unitree_sdk2) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_dual_arm_example\x1b[0m\n'}
+[61.023764] (-) TimerEvent: {}
+[61.124861] (-) TimerEvent: {}
+[61.225967] (-) TimerEvent: {}
+[61.327051] (-) TimerEvent: {}
+[61.428135] (-) TimerEvent: {}
+[61.530352] (-) TimerEvent: {}
+[61.631162] (-) TimerEvent: {}
+[61.731962] (-) TimerEvent: {}
+[61.832777] (-) TimerEvent: {}
+[61.933640] (-) TimerEvent: {}
+[62.034628] (-) TimerEvent: {}
+[62.135478] (-) TimerEvent: {}
+[62.236337] (-) TimerEvent: {}
+[62.337231] (-) TimerEvent: {}
+[62.438074] (-) TimerEvent: {}
+[62.538890] (-) TimerEvent: {}
+[62.639662] (-) TimerEvent: {}
+[62.740448] (-) TimerEvent: {}
+[62.784604] (unitree_sdk2) StdoutLine: {'line': b'[ 88%] Built target g1_dual_arm_example\n'}
+[62.840670] (-) TimerEvent: {}
+[62.941450] (-) TimerEvent: {}
+[63.042252] (-) TimerEvent: {}
+[63.143072] (-) TimerEvent: {}
+[63.243829] (-) TimerEvent: {}
+[63.344964] (-) TimerEvent: {}
+[63.446064] (-) TimerEvent: {}
+[63.547205] (-) TimerEvent: {}
+[63.590504] (unitree_sdk2) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1d_arm_example\x1b[0m\n'}
+[63.647403] (-) TimerEvent: {}
+[63.748178] (-) TimerEvent: {}
+[63.849344] (-) TimerEvent: {}
+[63.950428] (-) TimerEvent: {}
+[64.051545] (-) TimerEvent: {}
+[64.085339] (unitree_sdk2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/as2_sport_client\x1b[0m\n'}
+[64.123627] (unitree_sdk2) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h2_loco_client\x1b[0m\n'}
+[64.151758] (-) TimerEvent: {}
+[64.252901] (-) TimerEvent: {}
+[64.354090] (-) TimerEvent: {}
+[64.455289] (-) TimerEvent: {}
+[64.556417] (-) TimerEvent: {}
+[64.623154] (unitree_sdk2) StdoutLine: {'line': b'[ 91%] Built target g1d_arm_example\n'}
+[64.656642] (-) TimerEvent: {}
+[64.757412] (-) TimerEvent: {}
+[64.858544] (-) TimerEvent: {}
+[64.959662] (-) TimerEvent: {}
+[65.054395] (unitree_sdk2) StdoutLine: {'line': b'[ 91%] Built target as2_sport_client\n'}
+[65.059876] (-) TimerEvent: {}
+[65.125125] (unitree_sdk2) StdoutLine: {'line': b'[ 91%] Built target h2_loco_client\n'}
+[65.160079] (-) TimerEvent: {}
+[65.260862] (-) TimerEvent: {}
+[65.361608] (-) TimerEvent: {}
+[65.462360] (-) TimerEvent: {}
+[65.563115] (-) TimerEvent: {}
+[65.574476] (unitree_sdk2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/a2_audio_client_example\x1b[0m\n'}
+[65.663298] (-) TimerEvent: {}
+[65.764053] (-) TimerEvent: {}
+[65.864767] (-) TimerEvent: {}
+[65.965520] (-) TimerEvent: {}
+[66.066266] (-) TimerEvent: {}
+[66.167020] (-) TimerEvent: {}
+[66.267774] (-) TimerEvent: {}
+[66.368487] (-) TimerEvent: {}
+[66.469186] (-) TimerEvent: {}
+[66.490260] (unitree_sdk2) StdoutLine: {'line': b'[ 92%] Built target a2_audio_client_example\n'}
+[66.569370] (-) TimerEvent: {}
+[66.578140] (unitree_sdk2) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2w_stand_example\x1b[0m\n'}
+[66.669552] (-) TimerEvent: {}
+[66.770621] (-) TimerEvent: {}
+[66.871642] (-) TimerEvent: {}
+[66.972715] (-) TimerEvent: {}
+[67.073477] (-) TimerEvent: {}
+[67.174228] (-) TimerEvent: {}
+[67.275013] (-) TimerEvent: {}
+[67.375745] (-) TimerEvent: {}
+[67.476477] (-) TimerEvent: {}
+[67.520384] (unitree_sdk2) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/a2_sport_state\x1b[0m\n'}
+[67.550885] (unitree_sdk2) StdoutLine: {'line': b'[ 94%] Built target go2w_stand_example\n'}
+[67.576635] (-) TimerEvent: {}
+[67.677349] (-) TimerEvent: {}
+[67.778096] (-) TimerEvent: {}
+[67.878841] (-) TimerEvent: {}
+[67.979564] (-) TimerEvent: {}
+[68.080337] (-) TimerEvent: {}
+[68.181067] (-) TimerEvent: {}
+[68.221434] (unitree_sdk2) StdoutLine: {'line': b'[ 94%] Built target a2_sport_state\n'}
+[68.281242] (-) TimerEvent: {}
+[68.356542] (unitree_sdk2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/r1_audio_client_example\x1b[0m\n'}
+[68.381413] (-) TimerEvent: {}
+[68.482129] (-) TimerEvent: {}
+[68.582878] (-) TimerEvent: {}
+[68.683551] (-) TimerEvent: {}
+[68.784230] (-) TimerEvent: {}
+[68.884905] (-) TimerEvent: {}
+[68.989148] (-) TimerEvent: {}
+[69.090546] (-) TimerEvent: {}
+[69.191277] (-) TimerEvent: {}
+[69.252342] (unitree_sdk2) StdoutLine: {'line': b'[ 95%] Built target r1_audio_client_example\n'}
+[69.291452] (-) TimerEvent: {}
+[69.392196] (-) TimerEvent: {}
+[69.492977] (-) TimerEvent: {}
+[69.593680] (-) TimerEvent: {}
+[69.694389] (-) TimerEvent: {}
+[69.795113] (-) TimerEvent: {}
+[69.895985] (-) TimerEvent: {}
+[69.996677] (-) TimerEvent: {}
+[70.097371] (-) TimerEvent: {}
+[70.199454] (-) TimerEvent: {}
+[70.300492] (-) TimerEvent: {}
+[70.401189] (-) TimerEvent: {}
+[70.501886] (-) TimerEvent: {}
+[70.602665] (-) TimerEvent: {}
+[70.703362] (-) TimerEvent: {}
+[70.804016] (-) TimerEvent: {}
+[70.904703] (-) TimerEvent: {}
+[71.005400] (-) TimerEvent: {}
+[71.106138] (-) TimerEvent: {}
+[71.206906] (-) TimerEvent: {}
+[71.307605] (-) TimerEvent: {}
+[71.309446] (unitree_sdk2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/b2w_stand_example\x1b[0m\n'}
+[71.407783] (-) TimerEvent: {}
+[71.508536] (-) TimerEvent: {}
+[71.612874] (-) TimerEvent: {}
+[71.713572] (-) TimerEvent: {}
+[71.814303] (-) TimerEvent: {}
+[71.915083] (-) TimerEvent: {}
+[72.015870] (-) TimerEvent: {}
+[72.116633] (-) TimerEvent: {}
+[72.217318] (-) TimerEvent: {}
+[72.294103] (unitree_sdk2) StdoutLine: {'line': b'[ 96%] Built target b2w_stand_example\n'}
+[72.317499] (-) TimerEvent: {}
+[72.418219] (-) TimerEvent: {}
+[72.518950] (-) TimerEvent: {}
+[72.619717] (-) TimerEvent: {}
+[72.720418] (-) TimerEvent: {}
+[72.821084] (-) TimerEvent: {}
+[72.921788] (-) TimerEvent: {}
+[73.022499] (-) TimerEvent: {}
+[73.123228] (-) TimerEvent: {}
+[73.223935] (-) TimerEvent: {}
+[73.324636] (-) TimerEvent: {}
+[73.425327] (-) TimerEvent: {}
+[73.526013] (-) TimerEvent: {}
+[73.626704] (-) TimerEvent: {}
+[73.727382] (-) TimerEvent: {}
+[73.828066] (-) TimerEvent: {}
+[73.928750] (-) TimerEvent: {}
+[74.029420] (-) TimerEvent: {}
+[74.130071] (-) TimerEvent: {}
+[74.230712] (-) TimerEvent: {}
+[74.331493] (-) TimerEvent: {}
+[74.432170] (-) TimerEvent: {}
+[74.532843] (-) TimerEvent: {}
+[74.562861] (unitree_sdk2) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/as2_sport_state\x1b[0m\n'}
+[74.633033] (-) TimerEvent: {}
+[74.733719] (-) TimerEvent: {}
+[74.834386] (-) TimerEvent: {}
+[74.935077] (-) TimerEvent: {}
+[75.035760] (-) TimerEvent: {}
+[75.136450] (-) TimerEvent: {}
+[75.204275] (unitree_sdk2) StdoutLine: {'line': b'[ 97%] Built target as2_sport_state\n'}
+[75.236630] (-) TimerEvent: {}
+[75.337313] (-) TimerEvent: {}
+[75.438006] (-) TimerEvent: {}
+[75.538714] (-) TimerEvent: {}
+[75.639401] (-) TimerEvent: {}
+[75.740069] (-) TimerEvent: {}
+[75.840724] (-) TimerEvent: {}
+[75.941412] (-) TimerEvent: {}
+[76.042093] (-) TimerEvent: {}
+[76.142801] (-) TimerEvent: {}
+[76.243492] (-) TimerEvent: {}
+[76.344211] (-) TimerEvent: {}
+[76.444931] (-) TimerEvent: {}
+[76.545617] (-) TimerEvent: {}
+[76.646295] (-) TimerEvent: {}
+[76.747033] (-) TimerEvent: {}
+[76.847742] (-) TimerEvent: {}
+[76.948412] (-) TimerEvent: {}
+[77.048955] (-) TimerEvent: {}
+[77.149544] (-) TimerEvent: {}
+[77.250214] (-) TimerEvent: {}
+[77.350922] (-) TimerEvent: {}
+[77.451622] (-) TimerEvent: {}
+[77.552303] (-) TimerEvent: {}
+[77.653035] (-) TimerEvent: {}
+[77.753765] (-) TimerEvent: {}
+[77.854478] (-) TimerEvent: {}
+[77.955197] (-) TimerEvent: {}
+[78.055876] (-) TimerEvent: {}
+[78.156528] (-) TimerEvent: {}
+[78.257108] (-) TimerEvent: {}
+[78.357784] (-) TimerEvent: {}
+[78.458451] (-) TimerEvent: {}
+[78.559145] (-) TimerEvent: {}
+[78.659809] (-) TimerEvent: {}
+[78.760484] (-) TimerEvent: {}
+[78.861166] (-) TimerEvent: {}
+[78.961876] (-) TimerEvent: {}
+[79.062644] (-) TimerEvent: {}
+[79.163316] (-) TimerEvent: {}
+[79.263910] (-) TimerEvent: {}
+[79.364594] (-) TimerEvent: {}
+[79.465256] (-) TimerEvent: {}
+[79.565943] (-) TimerEvent: {}
+[79.666658] (-) TimerEvent: {}
+[79.767442] (-) TimerEvent: {}
+[79.868256] (-) TimerEvent: {}
+[79.969072] (-) TimerEvent: {}
+[80.069898] (-) TimerEvent: {}
+[80.170698] (-) TimerEvent: {}
+[80.171288] (unitree_sdk2) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/r1_ankle_swing_example\x1b[0m\n'}
+[80.270878] (-) TimerEvent: {}
+[80.371577] (-) TimerEvent: {}
+[80.472332] (-) TimerEvent: {}
+[80.573022] (-) TimerEvent: {}
+[80.673686] (-) TimerEvent: {}
+[80.774359] (-) TimerEvent: {}
+[80.875068] (-) TimerEvent: {}
+[80.975763] (-) TimerEvent: {}
+[81.076550] (-) TimerEvent: {}
+[81.103781] (unitree_sdk2) StdoutLine: {'line': b'[ 98%] Built target r1_ankle_swing_example\n'}
+[81.176757] (-) TimerEvent: {}
+[81.277564] (-) TimerEvent: {}
+[81.378350] (-) TimerEvent: {}
+[81.479178] (-) TimerEvent: {}
+[81.579996] (-) TimerEvent: {}
+[81.680811] (-) TimerEvent: {}
+[81.781625] (-) TimerEvent: {}
+[81.882445] (-) TimerEvent: {}
+[81.983312] (-) TimerEvent: {}
+[82.084146] (-) TimerEvent: {}
+[82.184895] (-) TimerEvent: {}
+[82.285544] (-) TimerEvent: {}
+[82.386184] (-) TimerEvent: {}
+[82.486888] (-) TimerEvent: {}
+[82.587553] (-) TimerEvent: {}
+[82.678060] (unitree_sdk2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h2_ankle_swing_example\x1b[0m\n'}
+[82.687646] (-) TimerEvent: {}
+[82.788217] (-) TimerEvent: {}
+[82.888922] (-) TimerEvent: {}
+[82.989646] (-) TimerEvent: {}
+[83.090371] (-) TimerEvent: {}
+[83.191079] (-) TimerEvent: {}
+[83.291771] (-) TimerEvent: {}
+[83.392455] (-) TimerEvent: {}
+[83.493358] (-) TimerEvent: {}
+[83.594067] (-) TimerEvent: {}
+[83.612356] (unitree_sdk2) StdoutLine: {'line': b'[100%] Built target h2_ankle_swing_example\n'}
+[83.642380] (unitree_sdk2) JobEnded: {'identifier': 'unitree_sdk2', 'rc': 'SIGINT'}
+[83.654184] (unitree_ros2_example) JobSkipped: {'identifier': 'unitree_ros2_example'}
+[83.654482] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_generator_py/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_c.c

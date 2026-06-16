@@ -1,0 +1,47 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"find_package"
+		],
+		"files" : 
+		[
+			"ouster-sdk/cmake/Findnmea.cmake",
+			"ouster-sdk/ouster_client/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "NMEA_INCLUDED::@08d44d94d7a20d1831a2",
+	"name" : "NMEA_INCLUDED",
+	"paths" : 
+	{
+		"build" : "ouster-sdk/ouster_client",
+		"source" : "ouster-sdk/ouster_client"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

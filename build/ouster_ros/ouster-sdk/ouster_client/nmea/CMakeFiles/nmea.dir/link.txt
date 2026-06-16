@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnmea.a CMakeFiles/nmea.dir/src/gga.cpp.o CMakeFiles/nmea.dir/src/gll.cpp.o CMakeFiles/nmea.dir/src/gsa.cpp.o CMakeFiles/nmea.dir/src/gsv.cpp.o CMakeFiles/nmea.dir/src/parse.cpp.o CMakeFiles/nmea.dir/src/rmc.cpp.o CMakeFiles/nmea.dir/src/sentence.cpp.o CMakeFiles/nmea.dir/src/vtg.cpp.o CMakeFiles/nmea.dir/src/zda.cpp.o
+/usr/bin/ranlib libnmea.a

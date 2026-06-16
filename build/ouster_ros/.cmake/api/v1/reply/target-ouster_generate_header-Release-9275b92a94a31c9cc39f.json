@@ -1,0 +1,47 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"ouster-sdk/cmake/VersionGen.cmake",
+			"ouster-sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "ouster_generate_header::@c0da5ad449d478ceb6d9",
+	"name" : "ouster_generate_header",
+	"paths" : 
+	{
+		"build" : "ouster-sdk",
+		"source" : "ouster-sdk"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

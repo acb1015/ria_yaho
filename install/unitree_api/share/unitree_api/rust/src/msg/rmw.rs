@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/unitree_api/rosidl_generator_rs/unitree_api/rust/src/msg/rmw.rs

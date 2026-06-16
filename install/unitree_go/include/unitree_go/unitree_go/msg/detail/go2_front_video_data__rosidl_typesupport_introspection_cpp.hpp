@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/unitree_go/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_cpp.hpp

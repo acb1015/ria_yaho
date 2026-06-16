@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/ouster_ros/ament_cmake_core/ouster_rosConfig.cmake

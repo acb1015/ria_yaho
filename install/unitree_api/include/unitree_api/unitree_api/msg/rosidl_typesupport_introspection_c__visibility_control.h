@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/unitree_api/rosidl_typesupport_introspection_c/unitree_api/msg/rosidl_typesupport_introspection_c__visibility_control.h

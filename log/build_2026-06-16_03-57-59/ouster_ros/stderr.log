@@ -1,0 +1,146 @@
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:[m[K In member function ‘[01m[Kvoid ouster_ros::OusterSensorNodeBase::display_lidar_info(const ouster::sdk::core::SensorInfo&)[m[K’:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:60:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |     auto lidar_mode = info.config.lidar_mode.value_or(LidarMode::[01;35m[KMODE_UNSPEC[m[K);
+      |                                                                  [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/chanfield.h:12[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:22[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:19[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:60:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |     auto lidar_mode = info.config.lidar_mode.value_or(LidarMode::[01;35m[KMODE_UNSPEC[m[K);
+      |                                                                  [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/chanfield.h:12[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:22[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:19[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:[m[K In member function ‘[01m[Kvoid ouster_ros::OusterSensorNodeBase::display_lidar_info(const ouster::sdk::core::SensorInfo&)[m[K’:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:60:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 | uto lidar_mode = info.config.lidar_mode.value_or(LidarMode::[01;35m[KMODE_UNSPEC[m[K);
+      |                                                             [01;35m[K^~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/chanfield.h:12[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:22[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:19[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:60:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 | uto lidar_mode = info.config.lidar_mode.value_or(LidarMode::[01;35m[KMODE_UNSPEC[m[K);
+      |                                                             [01;35m[K^~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/chanfield.h:12[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:22[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:19[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:[m[K In member function ‘[01m[Kvoid ouster_ros::OusterSensorNodeBase::display_lidar_info(const ouster::sdk::core::SensorInfo&)[m[K’:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:60:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |     auto lidar_mode = info.config.lidar_mode.value_or(LidarMode::[01;35m[KMODE_UNSPEC[m[K);
+      |                                                                  [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/chanfield.h:12[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:22[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:19[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:60:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |     auto lidar_mode = info.config.lidar_mode.value_or(LidarMode::[01;35m[KMODE_UNSPEC[m[K);
+      |                                                                  [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/chanfield.h:12[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:22[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:19[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:[m[K In member function ‘[01m[Kvoid ouster_ros::OusterSensor::parse_lidar_mode(ouster::sdk::core::SensorConfig&)[m[K’:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:615:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  615 |     if (lidar_mode == LidarMode::[01;35m[KMODE_UNSPEC[m[K) {
+      |                                  [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/packet.h:17[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_sensor/include/ouster/client.h:17[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:615:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  615 |     if (lidar_mode == LidarMode::[01;35m[KMODE_UNSPEC[m[K) {
+      |                                  [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/packet.h:17[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_sensor/include/ouster/client.h:17[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:[m[K In member function ‘[01m[Kvoid ouster_ros::OusterSensor::parse_lidar_mode(ouster::sdk::core::SensorConfig&)[m[K’:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:615:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  615 |     if (lidar_mode == LidarMode::[01;35m[KMODE_UNSPEC[m[K) {
+      |                                  [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/packet.h:17[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_sensor/include/ouster/client.h:17[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:615:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sdk::core::LidarMode::MODE_UNSPEC[m[K’ is deprecated: Use UNSPECIFIED instead. The last supported version for this will be 0.16.  [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  615 |     if (lidar_mode == LidarMode::[01;35m[KMODE_UNSPEC[m[K) {
+      |                                  [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/packet.h:17[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_sensor/include/ouster/client.h:17[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:73:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     OUSTER_DEPRECATED_ENUM_CLASS_ENTRY([01;36m[KMODE_UNSPEC[m[K, UNSPECIFIED,
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/deprecation.h:63:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KOUSTER_DEPRECATED_ENUM_CLASS_ENTRY[m[K’
+   63 |     [01;36m[Kold_symbol[m[K OUSTER_DEPRECATED_MSG(new_symbol, deprecation_version) = new_symbol
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:53:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   53 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg[01;35m[K)[m[K {
+      |                                                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:14[m[K,
+                 from [01m[K/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:21[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:106:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  106 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K

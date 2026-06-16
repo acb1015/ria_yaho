@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ouster-sdk/ouster_client/nmea",
+		"source" : "ouster-sdk/thirdparty/nmea"
+	}
+}

@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_typesupport_introspection_c/ouster_sensor_msgs/msg/detail/telemetry__rosidl_typesupport_introspection_c.h

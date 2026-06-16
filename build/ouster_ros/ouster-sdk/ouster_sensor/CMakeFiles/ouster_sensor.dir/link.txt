@@ -1,0 +1,2 @@
+/usr/bin/ar qc libouster_sensor.a CMakeFiles/ouster_sensor.dir/src/client.cpp.o CMakeFiles/ouster_sensor.dir/src/netcompat.cpp.o CMakeFiles/ouster_sensor.dir/src/sensor_packet_source.cpp.o CMakeFiles/ouster_sensor.dir/src/sensor_http.cpp.o CMakeFiles/ouster_sensor.dir/src/sensor_http_imp.cpp.o CMakeFiles/ouster_sensor.dir/src/sensor_scan_source.cpp.o
+/usr/bin/ranlib libouster_sensor.a

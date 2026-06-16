@@ -1,0 +1,8 @@
+/home/ria4065/go2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/Request.idl
+/home/ria4065/go2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestHeader.idl
+/home/ria4065/go2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestIdentity.idl
+/home/ria4065/go2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestLease.idl
+/home/ria4065/go2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestPolicy.idl
+/home/ria4065/go2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/Response.idl
+/home/ria4065/go2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseHeader.idl
+/home/ria4065/go2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseStatus.idl

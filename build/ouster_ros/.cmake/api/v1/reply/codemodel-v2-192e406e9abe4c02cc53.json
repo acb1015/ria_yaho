@@ -1,0 +1,406 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f0fe0e9b3961d6da9e4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						18,
+						19,
+						20,
+						22
+					]
+				},
+				{
+					"build" : "spdlog",
+					"jsonFile" : "directory-spdlog-Release-35bfd3eefeb6f1d78d18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ouster-sdk/thirdparty/spdlog"
+				},
+				{
+					"build" : "ouster-sdk",
+					"childIndexes" : 
+					[
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ouster-sdk-Release-e820edef46bbda4bf1ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "ouster-sdk",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "ouster-sdk/ouster_client",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ouster-sdk.ouster_client-Release-9579aedce4554b4c3ab9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ouster-sdk/ouster_client",
+					"targetIndexes" : 
+					[
+						1,
+						16,
+						23
+					]
+				},
+				{
+					"build" : "ouster-sdk/ouster_client/nmea",
+					"jsonFile" : "directory-ouster-sdk.ouster_client.nmea-Release-97c29797a6eb544f5f65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ouster-sdk/thirdparty/nmea",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "ouster-sdk/ouster_sensor",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ouster-sdk.ouster_sensor-Release-6e6b62adb4819952c792.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ouster-sdk/ouster_sensor",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ouster_ros",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						18,
+						19,
+						20,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "ouster-sdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5,
+						16,
+						17,
+						21,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EXAMPLE_INCLUDED::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EXAMPLE_INCLUDED-Release-ef751e295df4628d8ff0.json",
+					"name" : "EXAMPLE_INCLUDED",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NMEA_INCLUDED::@08d44d94d7a20d1831a2",
+					"jsonFile" : "target-NMEA_INCLUDED-Release-6eca61a95372ad511a99.json",
+					"name" : "NMEA_INCLUDED",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SPDLOG_INCLUDED::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SPDLOG_INCLUDED-Release-85ecbb08805e9c5aae19.json",
+					"name" : "SPDLOG_INCLUDED",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-4d466be2dd31f40132d2.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-42619c91679eb5ea498a.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "nmea::@cf4184c30a93e3785700",
+					"jsonFile" : "target-nmea-Release-a5e8158de8a49fd3049d.json",
+					"name" : "nmea",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_cloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_cloud-Release-cc41f49ad338c2cf39f5.json",
+					"name" : "os_cloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_cloud_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_cloud_component-Release-fe566c63fc8326e4ea1d.json",
+					"name" : "os_cloud_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_driver-Release-610c6024379cd133c76e.json",
+					"name" : "os_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_driver_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_driver_component-Release-c657d272df9369d41adc.json",
+					"name" : "os_driver_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_image::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_image-Release-7c77de3a2368a87ca391.json",
+					"name" : "os_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_image_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_image_component-Release-d7203c0d97e5f5c4ba9d.json",
+					"name" : "os_image_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_replay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_replay-Release-3c9e2846be1447b34ab2.json",
+					"name" : "os_replay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_replay_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_replay_component-Release-72f98d1a2206036cf7f9.json",
+					"name" : "os_replay_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_sensor-Release-13046110bfe6a3354953.json",
+					"name" : "os_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_sensor_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_sensor_component-Release-06cd72e6ff4ad4a65b68.json",
+					"name" : "os_sensor_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ouster_client::@08d44d94d7a20d1831a2",
+					"jsonFile" : "target-ouster_client-Release-141c9b12e36b88d871f7.json",
+					"name" : "ouster_client",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ouster_generate_header::@c0da5ad449d478ceb6d9",
+					"jsonFile" : "target-ouster_generate_header-Release-9275b92a94a31c9cc39f.json",
+					"name" : "ouster_generate_header",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_ros_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_ros_library-Release-c69595ee0fd2844f0599.json",
+					"name" : "ouster_ros_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_ros_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_ros_test-Release-c329532a616b460f8f90.json",
+					"name" : "ouster_ros_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_ros_uninstall-Release-df53f438559c7945b53c.json",
+					"name" : "ouster_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ouster_sensor::@41bab670875563870488",
+					"jsonFile" : "target-ouster_sensor-Release-97ad8383569d9e2528dc.json",
+					"name" : "ouster_sensor",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5a8c9dff532ec7226844.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "zone_render_mini::@08d44d94d7a20d1831a2",
+					"jsonFile" : "target-zone_render_mini-Release-064364ce4bfd9ad433bd.json",
+					"name" : "zone_render_mini",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ria4065/go2_ws/build/ouster_ros",
+		"source" : "/home/ria4065/go2_ws/src/ouster-ros/ouster-ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

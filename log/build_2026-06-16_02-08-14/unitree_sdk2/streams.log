@@ -1,0 +1,29 @@
+[0.042s] Invoking command in '/home/ria4065/go2_ws/build/unitree_sdk2': NX_CONNECTION=192.168.50.197 33074 192.168.50.121 4000 /usr/bin/cmake /home/ria4065/go2_ws/src/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/ria4065/go2_ws/install/unitree_sdk2
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.401s] -- The CXX compiler identification is GNU 11.4.0
+[0.430s] -- Detecting C compiler ABI info
+[0.576s] -- Detecting C compiler ABI info - done
+[0.600s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.603s] -- Detecting C compile features
+[0.605s] -- Detecting C compile features - done
+[0.619s] -- Detecting CXX compiler ABI info
+[0.779s] -- Detecting CXX compiler ABI info - done
+[0.796s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.797s] -- Detecting CXX compile features
+[0.798s] -- Detecting CXX compile features - done
+[0.800s] -- Setting build type to 'Release' as none was specified.
+[0.807s] -- Current system architecture: aarch64
+[0.813s] -- Looking for pthread.h
+[0.977s] -- Looking for pthread.h - found
+[0.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.123s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.133s] -- Found Threads: TRUE  
+[1.134s] -- Importing: /home/ria4065/go2_ws/src/unitree_sdk2/thirdparty/lib/aarch64/libddsc.so
+[1.134s] -- Importing: /home/ria4065/go2_ws/src/unitree_sdk2/thirdparty/lib/aarch64/libddscxx.so
+[1.134s] -- Unitree SDK library found at: /home/ria4065/go2_ws/src/unitree_sdk2/lib/aarch64/libunitree_sdk2.a
+[1.135s] -- Importing: /home/ria4065/go2_ws/src/unitree_sdk2/lib/aarch64/libunitree_sdk2.a
+[1.178s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[1.186s] -- Found yaml-cpp version 0.7.0
+[1.201s] -- Configuring done
+[1.339s] -- Generating done
+[1.378s] -- Build files have been written to: /home/ria4065/go2_ws/build/unitree_sdk2

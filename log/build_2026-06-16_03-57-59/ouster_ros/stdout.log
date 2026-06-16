@@ -1,0 +1,384 @@
+-- Build type not specified, using: Release
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ouster_sensor_msgs: 0.14.2 (/home/ria4065/go2_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found Eigen3: /usr/share/eigen3/cmake/Eigen3Config.cmake (found version "3.4.0") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+-- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found OpenCV: /usr (found version "4.8.0") 
+-- Using OusterSDK version from VERSION file: 0.16.1
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found libzip: /usr/include (found version "1.7.3") 
+-- Found CURL: /usr/include/aarch64-linux-gnu (found version "7.81.0") 
+-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ria4065/go2_ws/build/ouster_ros
+[  4%] [32mBuilding CXX object CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/os_driver.dir/rclcpp_components/node_main_os_driver.cpp.o[0m
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  4%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/gll.cpp.o[0m
+[  6%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/gsa.cpp.o[0m
+[  6%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/gga.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o[0m
+[34m[1mGenerating build info header[0m
+[  9%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/gsv.cpp.o[0m
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o[0m
+[ 11%] Built target ouster_generate_header
+[ 12%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/parse.cpp.o[0m
+[ 13%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/rmc.cpp.o[0m
+[ 14%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/sentence.cpp.o[0m
+[ 15%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/vtg.cpp.o[0m
+[ 16%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/zda.cpp.o[0m
+[ 17%] [32m[1mLinking CXX static library libnmea.a[0m
+[ 17%] Built target nmea
+[ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 19%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o[0m
+[ 20%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o[0m
+[ 22%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_info.cpp.o[0m
+[ 22%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o[0m
+[ 23%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o[0m
+[ 23%] Built target gtest_main
+[ 24%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/packet_source.cpp.o[0m
+[ 25%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/compat_ops.cpp.o[0m
+[ 26%] [32m[1mLinking CXX executable os_replay[0m
+[ 27%] [32m[1mLinking CXX executable os_driver[0m
+[ 27%] Built target os_driver
+[ 27%] Built target os_replay
+[ 28%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/field.cpp.o[0m
+[ 29%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o[0m
+[ 30%] [32m[1mLinking CXX executable os_cloud[0m
+[ 31%] [32m[1mLinking CXX executable os_sensor[0m
+[ 32%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/profile_extension.cpp.o[0m
+[ 32%] Built target os_cloud
+[ 33%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/metadata.cpp.o[0m
+[ 33%] Built target os_sensor
+[ 34%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/packet.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable os_image[0m
+[ 35%] Built target os_image
+[ 36%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/open_source.cpp.o[0m
+[ 37%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/scan_source.cpp.o[0m
+[ 38%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/scan_source_utils.cpp.o[0m
+[ 39%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/io_type.cpp.o[0m
+[ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 40%] Built target gtest
+[ 41%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/multi_scan_source.cpp.o[0m
+[ 42%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/transform_quaternion.cpp.o[0m
+[ 43%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/transform_vector.cpp.o[0m
+[ 44%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/transform_homogeneous.cpp.o[0m
+[ 45%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/pose_util.cpp.o[0m
+[ 46%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/pose_conversion.cpp.o[0m
+[ 47%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/cloud_io.cpp.o[0m
+[ 48%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/error_handler.cpp.o[0m
+[ 50%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zone_monitor.cpp.o[0m
+[ 51%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan_set.cpp.o[0m
+[ 52%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/json_tools.cpp.o[0m
+[ 53%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/normals.cpp.o[0m
+[ 54%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zip.cpp.o[0m
+[ 55%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/chanfield.cpp.o[0m
+[ 56%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/xyzlut.cpp.o[0m
+[ 57%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/mesh.cpp.o[0m
+[ 58%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/triangle.cpp.o[0m
+[ 59%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/stl.cpp.o[0m
+[ 60%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zone.cpp.o[0m
+[ 61%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zrb.cpp.o[0m
+[ 62%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zone_header.cpp.o[0m
+[ 63%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/vector_streambuf.cpp.o[0m
+[ 64%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/sha256.cpp.o[0m
+[ 65%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/beam_config.cpp.o[0m
+[ 66%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/typedefs.cpp.o[0m
+[ 67%] [32m[1mLinking CXX static library libouster_client.a[0m
+[ 67%] Built target ouster_client
+[ 71%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/sensor_http.cpp.o[0m
+[ 71%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/sensor_http_imp.cpp.o[0m
+[ 71%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/sensor_packet_source.cpp.o[0m
+[ 71%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/client.cpp.o[0m
+[ 73%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/sensor_scan_source.cpp.o[0m
+[ 73%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/netcompat.cpp.o[0m
+[ 74%] [32m[1mLinking CXX static library libouster_sensor.a[0m
+[ 74%] Built target ouster_sensor
+[ 75%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[ 76%] Built target ouster_ros_library
+[ 81%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/src/os_ros.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/test_main.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/lock_free_ring_buffer_test.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o[0m
+[ 92%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_transform_test.cpp.o[0m
+[ 93%] Built target os_replay_component
+[ 94%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_cloud_compose_test.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[ 95%] Built target os_sensor_component
+[ 96%] [32m[1mLinking CXX executable ouster_ros_test[0m
+[ 96%] Built target ouster_ros_test
+[ 97%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[ 97%] Built target os_image_component
+[ 98%] [32m[1mLinking CXX shared library libos_driver_component.so[0m
+[ 98%] Built target os_driver_component
+[100%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[100%] Built target os_cloud_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/build.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/array_view.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/beam_config.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/cartesian.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/chanfield.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/cloud_io.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/compat_ops.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/coord.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/defaults.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/deprecation.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/downsample.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/eigen.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/error_handler.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/field.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/image_processing.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/cuda_macros.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/deprecated/chanfieldtype_enums.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/deprecated/types_enums.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/downsample_impl.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/idx_range.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/iterator_base.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/json_tools.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/logging.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/open_source_impl.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/threadpool.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/threadsafe_queue.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transform_homogeneous.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transform_quaternion.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transform_typedefs.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transform_vector.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transformation.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/io_type.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/json_tools.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/lidar_scan.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/lidar_scan_set.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/mesh.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/metadata.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/normals.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/open_source.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/packet.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/packet_source.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/pose_conversion.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/pose_util.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/ray.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/scan_source.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/scan_source_utils.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/sha256.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/stl.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/triangle.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/typedefs.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/types.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/vector_streambuf.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/version.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/visibility.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/xyzlut.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zone.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zone_lut.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zone_monitor.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zone_state.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zrb.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/optional-lite/nonstd/optional.hpp
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/client.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/client_poller.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/netcompat.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/sensor_http.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/sensor_packet_source.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/sensor_scan_source.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/Coverage.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/VcpkgEnv.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/FindEigen3.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/Findlibtins.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/Findlibzip.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/FindCURL.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/Findglfw3.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/cmake/OusterSDK/FindPcap.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/LICENSE
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/LICENSE-bin
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/ouster_ros/os_sensor
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/ouster_ros/os_replay
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/ouster_ros/os_cloud
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/ouster_ros/os_image
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/ouster_ros/os_driver
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/libouster_ros_library.so
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/libos_sensor_component.so
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/libos_replay_component.so
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/libos_cloud_component.so
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/libos_image_component.so
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/lib/libos_driver_component.so
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster_ros//common_point_types.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster_ros//os_point.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster_ros//os_processing_node_base.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster_ros//os_ros.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster_ros//os_sensor_node_base.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster_ros//sensor_point_types.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/ouster_ros//visibility_control.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/array_view.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/beam_config.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/cartesian.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/chanfield.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/cloud_io.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/compat_ops.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/coord.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/defaults.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/deprecation.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/downsample.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/eigen.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/error_handler.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/field.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/image_processing.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/cuda_macros.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/deprecated/chanfieldtype_enums.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/deprecated/types_enums.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/downsample_impl.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/idx_range.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/iterator_base.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/json_tools.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/logging.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/open_source_impl.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/threadpool.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/threadsafe_queue.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transform_homogeneous.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transform_quaternion.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transform_typedefs.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transform_vector.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/impl/transformation.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/io_type.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/json_tools.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/lidar_scan.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/lidar_scan_set.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/mesh.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/metadata.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/normals.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/open_source.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/packet.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/packet_source.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/pose_conversion.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/pose_util.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/ray.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/scan_source.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/scan_source_utils.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/sha256.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/stl.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/triangle.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/typedefs.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/types.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/vector_streambuf.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/version.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/visibility.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/xyzlut.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zone.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zone_lut.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zone_monitor.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zone_state.h
+-- Up-to-date symlink: /home/ria4065/go2_ws/install/ouster_ros/include/ouster/zrb.h
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/include/nonstd/optional.hpp
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/LICENSE
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/driver.launch.py
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/driver_launch.py
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/record.composite.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/record.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/replay.composite.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/replay_pcap.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/config/community_driver.rviz
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/config/community_driver_config.yaml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/config/driver_params.yaml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/config/os_sensor_cloud_image_params.yaml
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/config/viz-reliable.rviz
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/environment/library_path.sh
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/environment/library_path.dsv
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/environment/path.sh
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/environment/path.dsv
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/local_setup.bash
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/local_setup.sh
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/local_setup.zsh
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/local_setup.dsv
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/package.dsv
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+-- Symlinking: /home/ria4065/go2_ws/install/ouster_ros/share/ouster_ros/package.xml

@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp

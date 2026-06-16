@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/unitree_hg/rosidl_generator_rs/unitree_hg/rust/src/msg.rs

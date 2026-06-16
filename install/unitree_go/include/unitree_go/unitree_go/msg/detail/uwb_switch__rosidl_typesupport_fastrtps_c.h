@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/unitree_go/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_c.h

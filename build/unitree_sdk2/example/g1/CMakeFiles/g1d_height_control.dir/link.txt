@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/g1d_height_control.dir/g1d/g1d_height_control.cpp.o -o ../../bin/g1d_height_control   -L/home/ria4065/go2_ws/src/unitree_sdk2/thirdparty/lib/aarch64  -Wl,-rpath,/home/ria4065/go2_ws/src/unitree_sdk2/thirdparty/lib/aarch64 /home/ria4065/go2_ws/src/unitree_sdk2/lib/aarch64/libunitree_sdk2.a -lddsc -lddscxx 

@@ -1,0 +1,73 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ouster_sensor_msgs/msg/Telemetry.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ouster_sensor_msgs {
+  module msg {
+    module Telemetry_Constants {
+      @verbatim (language="comment", text=
+        "ThermalShutdownStatus thermal_shutdown" "\n"        "Normal operation")
+      const uint8 THERMAL_SHUTDOWN_NORMAL = 0;
+      @verbatim (language="comment", text=
+        "Thermal Shutdown imminent")
+      const uint8 THERMAL_SHUTDOWN_IMMINENT = 1;
+      @verbatim (language="comment", text=
+        "ShotLimitingStatus shot_limiting" "\n"        "Normal operation")
+      const uint8 SHOT_LIMITING_NORMAL = 0;
+      @verbatim (language="comment", text=
+        "Shot limiting imminent")
+      const uint8 SHOT_LIMITING_IMMINENT = 1;
+      @verbatim (language="comment", text=
+        "Shot limiting reduction by 0 to 10%")
+      const uint8 SHOT_LIMITING_REDUCTION_0_10 = 2;
+      @verbatim (language="comment", text=
+        "Shot limiting reduction by 10 to 20%")
+      const uint8 SHOT_LIMITING_REDUCTION_10_20 = 3;
+      @verbatim (language="comment", text=
+        "Shot limiting reduction by 20 to 30%")
+      const uint8 SHOT_LIMITING_REDUCTION_20_30 = 4;
+      @verbatim (language="comment", text=
+        "Shot limiting reduction by 30 to 40%")
+      const uint8 SHOT_LIMITING_REDUCTION_30_40 = 5;
+      @verbatim (language="comment", text=
+        "Shot limiting reduction by 40 to 50%")
+      const uint8 SHOT_LIMITING_REDUCTION_40_50 = 6;
+      @verbatim (language="comment", text=
+        "Shot limiting reduction by 50 to 60%")
+      const uint8 SHOT_LIMITING_REDUCTION_50_60 = 7;
+      @verbatim (language="comment", text=
+        "Shot limiting reduction by 60 to 70%")
+      const uint8 SHOT_LIMITING_REDUCTION_60_70 = 8;
+      @verbatim (language="comment", text=
+        "Shot limiting reduction by 70 to 80%")
+      const uint8 SHOT_LIMITING_REDUCTION_70_75 = 9;
+    };
+    @verbatim (language="comment", text=
+      "This message defines the telemetry data for Ouster sensors.")
+    struct Telemetry {
+      @verbatim (language="comment", text=
+        "Message header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Telemetry fields for more information on these fields and their meaning, please review:" "\n"
+        "https://static.ouster.dev/sensor-docs/image_route1/image_route2/thermal_int_guide/therm_int_guide.html" "\n"
+        "the thermal shutdown countdown.")
+      uint16 countdown_thermal_shutdown;
+
+      @verbatim (language="comment", text=
+        "the shot limiting countdown.")
+      uint16 countdown_shot_limiting;
+
+      @verbatim (language="comment", text=
+        "the thermal shutdown status. 0 = NORMAL, 1 = SHUTDOWN IMMINENT.")
+      uint8 thermal_shutdown;
+
+      @verbatim (language="comment", text=
+        "the shot limiting status. 0 = NORMAL OPERATION.")
+      uint8 shot_limiting;
+    };
+  };
+};

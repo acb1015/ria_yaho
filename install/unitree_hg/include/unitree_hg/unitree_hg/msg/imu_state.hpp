@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/unitree_hg/rosidl_generator_cpp/unitree_hg/msg/imu_state.hpp

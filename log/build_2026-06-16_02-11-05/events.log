@@ -1,0 +1,1100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000680] (unitree_api) JobQueued: {'identifier': 'unitree_api', 'dependencies': OrderedDict()}
+[0.000807] (unitree_go) JobQueued: {'identifier': 'unitree_go', 'dependencies': OrderedDict()}
+[0.000979] (unitree_hg) JobQueued: {'identifier': 'unitree_hg', 'dependencies': OrderedDict()}
+[0.001067] (unitree_sdk2) JobQueued: {'identifier': 'unitree_sdk2', 'dependencies': OrderedDict()}
+[0.001113] (unitree_ros2_example) JobQueued: {'identifier': 'unitree_ros2_example', 'dependencies': OrderedDict([('unitree_api', '/home/ria4065/go2_ws/install/unitree_api'), ('unitree_go', '/home/ria4065/go2_ws/install/unitree_go'), ('unitree_hg', '/home/ria4065/go2_ws/install/unitree_hg')])}
+[0.001177] (unitree_api) JobStarted: {'identifier': 'unitree_api'}
+[0.011891] (unitree_go) JobStarted: {'identifier': 'unitree_go'}
+[0.018649] (unitree_hg) JobStarted: {'identifier': 'unitree_hg'}
+[0.024734] (unitree_sdk2) JobStarted: {'identifier': 'unitree_sdk2'}
+[0.034556] (unitree_api) JobProgress: {'identifier': 'unitree_api', 'progress': 'cmake'}
+[0.035382] (unitree_api) Command: {'cmd': ['/usr/bin/cmake', '/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ria4065/go2_ws/install/unitree_api'], 'cwd': '/home/ria4065/go2_ws/build/unitree_api', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_api'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043675] (unitree_go) JobProgress: {'identifier': 'unitree_go', 'progress': 'cmake'}
+[0.043992] (unitree_go) Command: {'cmd': ['/usr/bin/cmake', '/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ria4065/go2_ws/install/unitree_go'], 'cwd': '/home/ria4065/go2_ws/build/unitree_go', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_go'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046808] (unitree_hg) JobProgress: {'identifier': 'unitree_hg', 'progress': 'cmake'}
+[0.047602] (unitree_hg) Command: {'cmd': ['/usr/bin/cmake', '/home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ria4065/go2_ws/install/unitree_hg'], 'cwd': '/home/ria4065/go2_ws/build/unitree_hg', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_hg'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066040] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'cmake'}
+[0.067996] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'build'}
+[0.068198] (unitree_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ria4065/go2_ws/build/unitree_sdk2', '--', '-j12', '-l12'], 'cwd': '/home/ria4065/go2_ws/build/unitree_sdk2', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_sdk2'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX')]), 'shell': False}
+[0.070465] (unitree_api) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.070712] (unitree_go) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.073127] (unitree_hg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098465] (-) TimerEvent: {}
+[0.144089] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_jsonize\x1b[0m\n'}
+[0.150982] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_publisher\x1b[0m\n'}
+[0.151457] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target advanced_gamepad\x1b[0m\n'}
+[0.151616] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2_video_client\x1b[0m\n'}
+[0.156410] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target state_machine_example\x1b[0m\n'}
+[0.159443] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2_stand_example\x1b[0m\n'}
+[0.162525] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2_robot_state_client\x1b[0m\n'}
+[0.166197] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_subscriber\x1b[0m\n'}
+[0.168131] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2_low_level\x1b[0m\n'}
+[0.168468] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2_sport_client\x1b[0m\n'}
+[0.171913] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target b2_sport_client\x1b[0m\n'}
+[0.178312] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2_vui_client\x1b[0m\n'}
+[0.188401] (unitree_sdk2) StdoutLine: {'line': b'[  2%] Built target test_jsonize\n'}
+[0.198649] (-) TimerEvent: {}
+[0.199686] (unitree_sdk2) StdoutLine: {'line': b'[  5%] Built target test_publisher\n'}
+[0.200096] (unitree_sdk2) StdoutLine: {'line': b'[  7%] Built target go2_video_client\n'}
+[0.206331] (unitree_sdk2) StdoutLine: {'line': b'[  9%] Built target advanced_gamepad\n'}
+[0.209151] (unitree_sdk2) StdoutLine: {'line': b'[ 11%] Built target go2_stand_example\n'}
+[0.217301] (unitree_sdk2) StdoutLine: {'line': b'[ 19%] Built target state_machine_example\n'}
+[0.217801] (unitree_sdk2) StdoutLine: {'line': b'[ 19%] Built target go2_sport_client\n'}
+[0.218072] (unitree_sdk2) StdoutLine: {'line': b'[ 20%] Built target go2_robot_state_client\n'}
+[0.220433] (unitree_sdk2) StdoutLine: {'line': b'[ 20%] Built target test_subscriber\n'}
+[0.222382] (unitree_sdk2) StdoutLine: {'line': b'[ 25%] Built target b2_sport_client\n'}
+[0.222801] (unitree_sdk2) StdoutLine: {'line': b'[ 25%] Built target go2_vui_client\n'}
+[0.227149] (unitree_sdk2) StdoutLine: {'line': b'[ 27%] Built target go2_low_level\n'}
+[0.228865] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target b2_stand_example\x1b[0m\n'}
+[0.234215] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target h1_low_level_example\x1b[0m\n'}
+[0.235742] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target h1_loco_client\x1b[0m\n'}
+[0.238967] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target h1_27dof_example\x1b[0m\n'}
+[0.241310] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target h1_arm_sdk_dds_example\x1b[0m\n'}
+[0.241709] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target h1_2_arm_sdk_dds_example\x1b[0m\n'}
+[0.249919] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target h1_2_ankle_track\x1b[0m\n'}
+[0.252762] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_arm5_sdk_dds_example\x1b[0m\n'}
+[0.254476] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_loco_client\x1b[0m\n'}
+[0.268866] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_arm7_sdk_dds_example\x1b[0m\n'}
+[0.269308] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_audio_client_example\x1b[0m\n'}
+[0.271583] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_ankle_swing_example\x1b[0m\n'}
+[0.295372] (unitree_sdk2) StdoutLine: {'line': b'[ 30%] Built target h1_arm_sdk_dds_example\n'}
+[0.296189] (unitree_sdk2) StdoutLine: {'line': b'[ 32%] Built target h1_2_arm_sdk_dds_example\n'}
+[0.296669] (unitree_sdk2) StdoutLine: {'line': b'[ 34%] Built target h1_2_ankle_track\n'}
+[0.298887] (unitree_sdk2) StdoutLine: {'line': b'[ 36%] Built target h1_27dof_example\n'}
+[0.299213] (-) TimerEvent: {}
+[0.300279] (unitree_sdk2) StdoutLine: {'line': b'[ 37%] Built target h1_low_level_example\n'}
+[0.303394] (unitree_sdk2) StdoutLine: {'line': b'[ 39%] Built target h1_loco_client\n'}
+[0.306587] (unitree_sdk2) StdoutLine: {'line': b'[ 41%] Built target g1_loco_client\n'}
+[0.310612] (unitree_sdk2) StdoutLine: {'line': b'[ 43%] Built target b2_stand_example\n'}
+[0.312592] (unitree_sdk2) StdoutLine: {'line': b'[ 45%] Built target g1_arm5_sdk_dds_example\n'}
+[0.319969] (unitree_sdk2) StdoutLine: {'line': b'[ 50%] Built target g1_audio_client_example\n'}
+[0.320440] (unitree_sdk2) StdoutLine: {'line': b'[ 50%] Built target g1_ankle_swing_example\n'}
+[0.321995] (unitree_sdk2) StdoutLine: {'line': b'[ 52%] Built target g1_arm7_sdk_dds_example\n'}
+[0.331512] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_dual_arm_example\x1b[0m\n'}
+[0.332331] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_arm_action_example\x1b[0m\n'}
+[0.334239] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_termination\x1b[0m\n'}
+[0.335520] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1d_arm_example\x1b[0m\n'}
+[0.338147] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_agv_client_example\x1b[0m\n'}
+[0.341380] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_hand_sdk_example\x1b[0m\n'}
+[0.344227] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_userctrl_dds_example\x1b[0m\n'}
+[0.344530] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2w_sport_client\x1b[0m\n'}
+[0.346819] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1d_height_control\x1b[0m\n'}
+[0.355171] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g1_dex3_example\x1b[0m\n'}
+[0.373525] (unitree_hg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.377155] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2w_stand_example\x1b[0m\n'}
+[0.384362] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target b2w_sport_client\x1b[0m\n'}
+[0.387834] (unitree_hg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.399449] (-) TimerEvent: {}
+[0.400559] (unitree_sdk2) StdoutLine: {'line': b'[ 55%] Built target g1_arm_action_example\n'}
+[0.401144] (unitree_go) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.401414] (unitree_sdk2) StdoutLine: {'line': b'[ 56%] Built target g1_dual_arm_example\n'}
+[0.402974] (unitree_api) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.406978] (unitree_sdk2) StdoutLine: {'line': b'[ 59%] Built target g1_termination\n'}
+[0.407513] (unitree_sdk2) StdoutLine: {'line': b'[ 60%] Built target g1d_arm_example\n'}
+[0.408878] (unitree_sdk2) StdoutLine: {'line': b'[ 63%] Built target g1_hand_sdk_example\n'}
+[0.409543] (unitree_sdk2) StdoutLine: {'line': b'[ 64%] Built target g1_userctrl_dds_example\n'}
+[0.410740] (unitree_sdk2) StdoutLine: {'line': b'[ 66%] Built target g1_agv_client_example\n'}
+[0.411271] (unitree_sdk2) StdoutLine: {'line': b'[ 68%] Built target g1d_height_control\n'}
+[0.419269] (unitree_go) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.419940] (unitree_sdk2) StdoutLine: {'line': b'[ 70%] Built target go2w_sport_client\n'}
+[0.422317] (unitree_api) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.424379] (unitree_sdk2) StdoutLine: {'line': b'[ 75%] Built target g1_dex3_example\n'}
+[0.424748] (unitree_sdk2) StdoutLine: {'line': b'[ 75%] Built target go2w_stand_example\n'}
+[0.428364] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target b2w_stand_example\x1b[0m\n'}
+[0.430169] (unitree_sdk2) StdoutLine: {'line': b'[ 77%] Built target b2w_sport_client\n'}
+[0.432000] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target a2_sport_client\x1b[0m\n'}
+[0.436157] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target a2_audio_client_example\x1b[0m\n'}
+[0.438265] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target r1_loco_client\x1b[0m\n'}
+[0.440714] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target r1_ankle_swing_example\x1b[0m\n'}
+[0.448289] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target a2_sport_state\x1b[0m\n'}
+[0.448782] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target r1_audio_client_example\x1b[0m\n'}
+[0.451561] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.457913] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.458966] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target h2_loco_client\x1b[0m\n'}
+[0.467562] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target as2_sport_client\x1b[0m\n'}
+[0.468129] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target as2_sport_state\x1b[0m\n'}
+[0.468366] (unitree_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target h2_ankle_swing_example\x1b[0m\n'}
+[0.472986] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.474039] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.475532] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.479195] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.480328] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.485948] (unitree_sdk2) StdoutLine: {'line': b'[ 81%] Built target a2_sport_client\n'}
+[0.486417] (unitree_sdk2) StdoutLine: {'line': b'[ 81%] Built target a2_audio_client_example\n'}
+[0.486683] (unitree_sdk2) StdoutLine: {'line': b'[ 83%] Built target b2w_stand_example\n'}
+[0.489387] (unitree_sdk2) StdoutLine: {'line': b'[ 87%] Built target r1_loco_client\n'}
+[0.489780] (unitree_sdk2) StdoutLine: {'line': b'[ 87%] Built target r1_ankle_swing_example\n'}
+[0.491711] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.493617] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.498346] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.498743] (unitree_sdk2) StdoutLine: {'line': b'[ 91%] Built target a2_sport_state\n'}
+[0.498940] (unitree_sdk2) StdoutLine: {'line': b'[ 91%] Built target r1_audio_client_example\n'}
+[0.499493] (-) TimerEvent: {}
+[0.505097] (unitree_sdk2) StdoutLine: {'line': b'[ 93%] Built target h2_loco_client\n'}
+[0.508373] (unitree_sdk2) StdoutLine: {'line': b'[ 96%] Built target as2_sport_state\n'}
+[0.508678] (unitree_sdk2) StdoutLine: {'line': b'[ 97%] Built target as2_sport_client\n'}
+[0.510671] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.512580] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.514888] (unitree_sdk2) StdoutLine: {'line': b'[100%] Built target h2_ankle_swing_example\n'}
+[0.522118] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.535271] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.536189] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.550516] (unitree_sdk2) CommandEnded: {'returncode': 0}
+[0.552372] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'install'}
+[0.570326] (unitree_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ria4065/go2_ws/build/unitree_sdk2'], 'cwd': '/home/ria4065/go2_ws/build/unitree_sdk2', 'env': OrderedDict([('NX_ROOT', '/home/ria4065/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/client.conf'), ('MAIL', '/var/mail/ria4065'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'ria4065'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ria4065'), ('OLDPWD', '/home/ria4065/go2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-bnUQiBwipA,guid=f7124d74e0d73a60cce74e4a6a302bd3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2f4141aec58b2d71aa3dd4b2d054681d7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4614'), ('PULSE_SCRIPT', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/default.pa'), ('WAYLAND_DISPLAY', 'no'), ('COLCON_PREFIX_PATH', '/home/ria4065/go2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ria4065'), ('PULSE_SERVER', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ria4065'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3130,unix/ubuntu:/tmp/.ICE-unix/3130'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/ria4065/.nx/devices/D-1002-B6D4C0524F68DAE5A6D6408712EA81F1/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1002'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/ria4065/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf3ee3fd-c231-4553-9d74-fb5d54c0d072'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('NX_SESSION_ID', 'B6D4C0524F68DAE5A6D6408712EA81F1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ria4065/go2_ws/build/unitree_sdk2'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NX_CONNECTION', '192.168.50.197 33074 192.168.50.121 4000'), ('NXDIR', '/usr/NX')]), 'shell': False}
+[0.586430] (unitree_sdk2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.586943] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include\n'}
+[0.587185] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree\n'}
+[0.587334] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl\n'}
+[0.587471] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2\n'}
+[0.587601] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/QuaternionStamped_.hpp\n'}
+[0.587846] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Quaternion_.hpp\n'}
+[0.588110] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseStamped_.hpp\n'}
+[0.588368] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Twist_.hpp\n'}
+[0.588606] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Odometry_.hpp\n'}
+[0.588894] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistStamped_.hpp\n'}
+[0.589143] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/OccupancyGrid_.hpp\n'}
+[0.589363] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.589568] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose2D_.hpp\n'}
+[0.589739] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/String_.hpp\n'}
+[0.589904] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Vector3_.hpp\n'}
+[0.590126] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Imu_.hpp\n'}
+[0.590422] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovarianceStamped_.hpp\n'}
+[0.590690] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point_.hpp\n'}
+[0.590921] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointCloud2_.hpp\n'}
+[0.591201] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Time_.hpp\n'}
+[0.591422] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/MapMetaData_.hpp\n'}
+[0.591676] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovariance_.hpp\n'}
+[0.591937] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointStamped_.hpp\n'}
+[0.592185] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point32_.hpp\n'}
+[0.592403] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointField_.hpp\n'}
+[0.592702] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovarianceStamped_.hpp\n'}
+[0.592938] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose_.hpp\n'}
+[0.593127] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovariance_.hpp\n'}
+[0.593364] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Header_.hpp\n'}
+[0.594167] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg\n'}
+[0.594362] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/PressSensorState_.hpp\n'}
+[0.594600] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/AgvBmsState_.hpp\n'}
+[0.594842] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/LowCmd_.hpp\n'}
+[0.595090] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorState_.hpp\n'}
+[0.595343] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/MainBoardState_.hpp\n'}
+[0.595582] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/HandCmd_.hpp\n'}
+[0.595822] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsState_.hpp\n'}
+[0.596089] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/LowState_.hpp\n'}
+[0.596358] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/SportModeState_.hpp\n'}
+[0.596583] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsCmd_.hpp\n'}
+[0.596808] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/IMUState_.hpp\n'}
+[0.597050] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/HandState_.hpp\n'}
+[0.597336] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorCmd_.hpp\n'}
+[0.597596] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2\n'}
+[0.597768] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbSwitch_.hpp\n'}
+[0.597991] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/PathPoint_.hpp\n'}
+[0.598230] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/LowCmd_.hpp\n'}
+[0.598509] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorStates_.hpp\n'}
+[0.598736] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeCmd_.hpp\n'}
+[0.599016] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorState_.hpp\n'}
+[0.599262] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/Res_.hpp\n'}
+[0.599484] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmds_.hpp\n'}
+[0.599610] (-) TimerEvent: {}
+[0.599917] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/Go2FrontVideoData_.hpp\n'}
+[0.600075] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/ConfigChangeStatus_.hpp\n'}
+[0.600239] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/HeightMap_.hpp\n'}
+[0.600433] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/Req_.hpp\n'}
+[0.600650] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/InterfaceConfig_.hpp\n'}
+[0.600892] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/TimeSpec_.hpp\n'}
+[0.601112] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/VoxelMapCompressed_.hpp\n'}
+[0.601389] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsState_.hpp\n'}
+[0.601640] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/LowState_.hpp\n'}
+[0.601961] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeState_.hpp\n'}
+[0.602266] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsCmd_.hpp\n'}
+[0.602480] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/Error_.hpp\n'}
+[0.602693] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/IMUState_.hpp\n'}
+[0.602923] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/LidarState_.hpp\n'}
+[0.603228] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbState_.hpp\n'}
+[0.603412] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.603569] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/AudioData_.hpp\n'}
+[0.603732] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmd_.hpp\n'}
+[0.603938] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.604117] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/go2/WirelessController_.hpp\n'}
+[0.604272] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg_doubleimu\n'}
+[0.604428] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/idl/hg_doubleimu/doubleIMUState_.hpp\n'}
+[0.604597] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot\n'}
+[0.604758] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/future\n'}
+[0.604913] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/future/request_future.hpp\n'}
+[0.605069] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal\n'}
+[0.605222] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl\n'}
+[0.605392] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Response_.hpp\n'}
+[0.605583] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp\n'}
+[0.605824] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseHeader_.hpp\n'}
+[0.606070] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Request_.hpp\n'}
+[0.606326] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseStatus_.hpp\n'}
+[0.606570] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestLease_.hpp\n'}
+[0.606792] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestPolicy_.hpp\n'}
+[0.607036] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp\n'}
+[0.607238] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_api.hpp\n'}
+[0.607435] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_error.hpp\n'}
+[0.607622] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_request_response.hpp\n'}
+[0.607812] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal.hpp\n'}
+[0.607991] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/server\n'}
+[0.608165] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/server/lease_server.hpp\n'}
+[0.608343] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/server/server.hpp\n'}
+[0.608539] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/server/server_stub.hpp\n'}
+[0.608727] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/server/server_base.hpp\n'}
+[0.608906] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/client\n'}
+[0.609063] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/client/client.hpp\n'}
+[0.609226] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/client/client_base.hpp\n'}
+[0.609454] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/client/lease_client.hpp\n'}
+[0.609647] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/client/client_stub.hpp\n'}
+[0.609825] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h1\n'}
+[0.609978] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco\n'}
+[0.610126] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_api.hpp\n'}
+[0.610299] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_error.hpp\n'}
+[0.610505] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_client.hpp\n'}
+[0.610705] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/serialize\n'}
+[0.610864] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/serialize/serialize.hpp\n'}
+[0.611022] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2\n'}
+[0.611169] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state\n'}
+[0.611323] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_error.hpp\n'}
+[0.611500] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_api.hpp\n'}
+[0.611712] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_client.hpp\n'}
+[0.611896] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video\n'}
+[0.612057] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_error.hpp\n'}
+[0.612235] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_client.hpp\n'}
+[0.612454] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_api.hpp\n'}
+[0.612641] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video\n'}
+[0.612801] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_client.hpp\n'}
+[0.612990] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_error.hpp\n'}
+[0.613184] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_api.hpp\n'}
+[0.613404] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport\n'}
+[0.613638] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_client.hpp\n'}
+[0.613841] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_api.hpp\n'}
+[0.614041] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_error.hpp\n'}
+[0.614228] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher\n'}
+[0.614392] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_error.hpp\n'}
+[0.614564] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_api.hpp\n'}
+[0.614760] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_client.hpp\n'}
+[0.614940] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/config\n'}
+[0.615100] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_error.hpp\n'}
+[0.615279] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_api.hpp\n'}
+[0.615477] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_client.hpp\n'}
+[0.615663] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2\n'}
+[0.615807] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2/sport\n'}
+[0.615966] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_client.hpp\n'}
+[0.616192] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_api.hpp\n'}
+[0.616391] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_error.hpp\n'}
+[0.616580] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2/audio\n'}
+[0.616739] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_api.hpp\n'}
+[0.616919] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_client.hpp\n'}
+[0.617113] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_error.hpp\n'}
+[0.617300] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1\n'}
+[0.617468] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1/loco\n'}
+[0.617623] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1/loco/r1_loco_client.hpp\n'}
+[0.617799] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1/loco/r1_loco_api.hpp\n'}
+[0.618003] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1/loco/r1_loco_error.hpp\n'}
+[0.618191] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1/audio\n'}
+[0.618351] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1/audio/audio_api.hpp\n'}
+[0.618725] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1/audio/audio_client.hpp\n'}
+[0.618941] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/r1/audio/audio_error.hpp\n'}
+[0.619105] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2\n'}
+[0.619263] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state\n'}
+[0.619412] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_error.hpp\n'}
+[0.619540] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_api.hpp\n'}
+[0.619693] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_client.hpp\n'}
+[0.619845] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid\n'}
+[0.619998] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_api.hpp\n'}
+[0.620140] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_client.hpp\n'}
+[0.620304] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/public\n'}
+[0.620454] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/public/jsonize_type.hpp\n'}
+[0.620638] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui\n'}
+[0.620803] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_error.hpp\n'}
+[0.620995] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_client.hpp\n'}
+[0.621193] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_api.hpp\n'}
+[0.621400] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack\n'}
+[0.621558] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_api.hpp\n'}
+[0.621765] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_client.hpp\n'}
+[0.621950] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport\n'}
+[0.622129] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_client.hpp\n'}
+[0.622333] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_api.hpp\n'}
+[0.622530] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_error.hpp\n'}
+[0.622724] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/video\n'}
+[0.622886] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_api.hpp\n'}
+[0.623278] (unitree_hg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.623561] (unitree_hg) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[0.623723] (unitree_hg) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.623873] (unitree_hg) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[0.623998] (unitree_hg) StderrLine: {'line': b'\n'}
+[0.624141] (unitree_hg) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.624292] (unitree_hg) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[0.624442] (unitree_hg) StderrLine: {'line': b'\n'}
+[0.624590] (unitree_hg) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[0.624733] (unitree_hg) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[0.624854] (unitree_hg) StderrLine: {'line': b'\n'}
+[0.624999] (unitree_hg) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[0.625147] (unitree_hg) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[0.625294] (unitree_hg) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[0.625465] (unitree_hg) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.625619] (unitree_hg) StderrLine: {'line': b'\n'}
+[0.625737] (unitree_hg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.625884] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_client.hpp\n'}
+[0.626042] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_error.hpp\n'}
+[0.626189] (unitree_hg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.626342] (unitree_hg) StdoutLine: {'line': b'See also "/home/ria4065/go2_ws/build/unitree_hg/CMakeFiles/CMakeOutput.log".\n'}
+[0.626465] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/config\n'}
+[0.626619] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_error.hpp\n'}
+[0.626771] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_api.hpp\n'}
+[0.626913] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_client.hpp\n'}
+[0.627035] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1\n'}
+[0.627183] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/arm\n'}
+[0.627331] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_error.hpp\n'}
+[0.627470] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_client.hpp\n'}
+[0.627592] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_api.hpp\n'}
+[0.627757] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/common\n'}
+[0.627906] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/common/terminations.hpp\n'}
+[0.628054] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/agv\n'}
+[0.628199] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_client.hpp\n'}
+[0.628323] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_api.hpp\n'}
+[0.628496] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_error.hpp\n'}
+[0.628650] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco\n'}
+[0.628804] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_client.hpp\n'}
+[0.628960] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_error.hpp\n'}
+[0.629110] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_api.hpp\n'}
+[0.629254] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/audio\n'}
+[0.629403] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_error.hpp\n'}
+[0.629560] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_api.hpp\n'}
+[0.629712] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_client.hpp\n'}
+[0.629874] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/channel\n'}
+[0.630028] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_publisher.hpp\n'}
+[0.630193] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_labor.hpp\n'}
+[0.630320] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp\n'}
+[0.630439] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp\n'}
+[0.630560] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_namer.hpp\n'}
+[0.630678] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/as2\n'}
+[0.630797] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/as2/sport\n'}
+[0.630915] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/as2/sport/sport_client.hpp\n'}
+[0.631031] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/as2/sport/sport_api.hpp\n'}
+[0.631149] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/as2/sport/sport_error.hpp\n'}
+[0.631267] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h2\n'}
+[0.631385] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h2/loco\n'}
+[0.631527] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h2/loco/h2_loco_error.hpp\n'}
+[0.631841] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h2/loco/h2_loco_client.hpp\n'}
+[0.635964] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/robot/h2/loco/h2_loco_api.hpp\n'}
+[0.637121] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper\n'}
+[0.638773] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common\n'}
+[0.639368] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/Publisher.h\n'}
+[0.639877] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/Subscription.h\n'}
+[0.640412] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/unitree_joystick.hpp\n'}
+[0.640761] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/crc.h\n'}
+[0.641653] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots\n'}
+[0.643207] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2\n'}
+[0.643894] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/defines.h\n'}
+[0.644755] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2_pub.h\n'}
+[0.644957] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2_sub.h\n'}
+[0.645135] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2.h\n'}
+[0.645306] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1\n'}
+[0.645512] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/defines.h\n'}
+[0.645652] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1_pub.h\n'}
+[0.645781] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1.h\n'}
+[0.645977] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1_sub.h\n'}
+[0.646143] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common\n'}
+[0.646298] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/exception.hpp\n'}
+[0.646429] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/json\n'}
+[0.646553] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/json/json_config.hpp\n'}
+[0.646674] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/json/json.hpp\n'}
+[0.646842] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/json/jsonize.hpp\n'}
+[0.646974] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/os.hpp\n'}
+[0.647129] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/any.hpp\n'}
+[0.647250] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/string_tool.hpp\n'}
+[0.647369] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/service\n'}
+[0.647487] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/service/dds_service.hpp\n'}
+[0.647604] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/service/base\n'}
+[0.647721] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_base.hpp\n'}
+[0.647839] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_application.hpp\n'}
+[0.647960] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_decl.hpp\n'}
+[0.648078] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_config.hpp\n'}
+[0.648197] (unitree_go) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.648386] (unitree_go) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[0.648514] (unitree_go) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.648632] (unitree_go) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[0.648748] (unitree_go) StderrLine: {'line': b'\n'}
+[0.648862] (unitree_go) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.648975] (unitree_go) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[0.649086] (unitree_go) StderrLine: {'line': b'\n'}
+[0.649196] (unitree_go) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[0.649308] (unitree_go) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[0.649463] (unitree_go) StderrLine: {'line': b'\n'}
+[0.649581] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/assert.hpp\n'}
+[0.649710] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/block_queue.hpp\n'}
+[0.649832] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/error.hpp\n'}
+[0.649951] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/lock\n'}
+[0.650190] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/lock/lock.hpp\n'}
+[0.650735] (unitree_go) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.651632] (unitree_go) StdoutLine: {'line': b'See also "/home/ria4065/go2_ws/build/unitree_go/CMakeFiles/CMakeOutput.log".\n'}
+[0.652492] (unitree_go) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[0.653029] (unitree_go) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[0.653428] (unitree_go) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[0.653943] (unitree_go) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.655217] (unitree_go) StderrLine: {'line': b'\n'}
+[0.655378] (unitree_go) StderrLine: {'line': b'\x1b[0m\n'}
+[0.655529] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/filesystem\n'}
+[0.656055] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/filesystem/directory.hpp\n'}
+[0.656597] (unitree_hg) CommandEnded: {'returncode': 1}
+[0.657713] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/filesystem/file.hpp\n'}
+[0.658078] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/filesystem/filesystem.hpp\n'}
+[0.658560] (unitree_api) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.659390] (unitree_api) StdoutLine: {'line': b'See also "/home/ria4065/go2_ws/build/unitree_api/CMakeFiles/CMakeOutput.log".\n'}
+[0.659969] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/time\n'}
+[0.660854] (unitree_api) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.661048] (unitree_api) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[0.661178] (unitree_api) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.661591] (unitree_api) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[0.661721] (unitree_api) StderrLine: {'line': b'\n'}
+[0.661970] (unitree_api) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.662094] (unitree_api) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[0.662213] (unitree_api) StderrLine: {'line': b'\n'}
+[0.662330] (unitree_api) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[0.662446] (unitree_api) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[0.662561] (unitree_api) StderrLine: {'line': b'\n'}
+[0.662674] (unitree_api) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[0.662787] (unitree_api) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[0.662903] (unitree_api) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[0.663016] (unitree_api) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.663130] (unitree_api) StderrLine: {'line': b'\n'}
+[0.663242] (unitree_api) StderrLine: {'line': b'\x1b[0m\n'}
+[0.663357] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/time/time_tool.hpp\n'}
+[0.663490] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/time/sleep.hpp\n'}
+[0.663613] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/decl.hpp\n'}
+[0.663732] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds\n'}
+[0.663851] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_traits.hpp\n'}
+[0.663968] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos.hpp\n'}
+[0.664086] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_callback.hpp\n'}
+[0.664203] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_native.hpp\n'}
+[0.664318] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy_parameter.hpp\n'}
+[0.664436] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_error.hpp\n'}
+[0.664727] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy.hpp\n'}
+[0.665052] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_exception.hpp\n'}
+[0.665282] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_parameter.hpp\n'}
+[0.666182] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_easy_model.hpp\n'}
+[0.666321] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp\n'}
+[0.667002] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp\n'}
+[0.667282] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_realize.hpp\n'}
+[0.667685] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp\n'}
+[0.667873] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp\n'}
+[0.668241] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log\n'}
+[0.668424] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log_logger.hpp\n'}
+[0.668735] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log.hpp\n'}
+[0.668915] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log_buffer.hpp\n'}
+[0.669221] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log_initor.hpp\n'}
+[0.669398] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log_keeper.hpp\n'}
+[0.669707] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log_policy.hpp\n'}
+[0.669908] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log_decl.hpp\n'}
+[0.670464] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log_writer.hpp\n'}
+[0.670717] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/log/log_store.hpp\n'}
+[0.670948] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/thread\n'}
+[0.671204] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_decl.hpp\n'}
+[0.671437] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/thread/future.hpp\n'}
+[0.671644] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_task.hpp\n'}
+[0.671828] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_pool.hpp\n'}
+[0.672087] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/thread/thread.hpp\n'}
+[0.672244] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/unitree/common/thread/recurrent_thread.hpp\n'}
+[0.672527] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/lib/libunitree_sdk2.a\n'}
+[0.672807] (unitree_go) CommandEnded: {'returncode': 1}
+[0.673864] (unitree_api) CommandEnded: {'returncode': 1}
+[0.689709] (unitree_hg) JobEnded: {'identifier': 'unitree_hg', 'rc': 1}
+[0.691853] (unitree_go) JobEnded: {'identifier': 'unitree_go', 'rc': 'SIGINT'}
+[0.692441] (unitree_api) JobEnded: {'identifier': 'unitree_api', 'rc': 'SIGINT'}
+[0.699728] (-) TimerEvent: {}
+[0.705651] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Targets.cmake\n'}
+[0.706084] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Config.cmake\n'}
+[0.706305] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2ConfigVersion.cmake\n'}
+[0.706735] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/lib/libddsc.so\n'}
+[0.722466] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/lib/libddsc.so.0\n'}
+[0.722985] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/lib/libddscxx.so\n'}
+[0.729535] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/lib/libddscxx.so.0\n'}
+[0.730404] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/ria4065/go2_ws/install/unitree_sdk2/include\n'}
+[0.731014] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddsc\n'}
+[0.731488] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddsc/dds.h\n'}
+[0.732030] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx\n'}
+[0.732539] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org\n'}
+[0.732923] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse\n'}
+[0.733401] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds\n'}
+[0.733938] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub\n'}
+[0.734380] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/GenerationCountImpl.hpp\n'}
+[0.734843] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp\n'}
+[0.735255] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/QueryDelegate.hpp\n'}
+[0.735685] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/RankImpl.hpp\n'}
+[0.736130] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SubscriberDelegate.hpp\n'}
+[0.736484] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SampleInfoImpl.hpp\n'}
+[0.736964] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/CoherentAccessDelegate.hpp\n'}
+[0.737240] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/BuiltinSubscriberDelegate.hpp\n'}
+[0.737680] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond\n'}
+[0.738025] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/QueryConditionDelegate.hpp\n'}
+[0.738960] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/ReadConditionDelegate.hpp\n'}
+[0.739446] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos\n'}
+[0.739771] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/SubscriberQosDelegate.hpp\n'}
+[0.740141] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/DataReaderQosDelegate.hpp\n'}
+[0.740555] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain\n'}
+[0.740911] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp\n'}
+[0.741250] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantRegistry.hpp\n'}
+[0.741626] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos\n'}
+[0.741934] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos/DomainParticipantQosDelegate.hpp\n'}
+[0.742232] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainWrap.hpp\n'}
+[0.742580] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantListener.hpp\n'}
+[0.742909] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/Domain.hpp\n'}
+[0.743154] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic\n'}
+[0.743451] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicDelegate.hpp\n'}
+[0.743887] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicListener.hpp\n'}
+[0.744127] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicListener.hpp\n'}
+[0.744355] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TBuiltinTopic.hpp\n'}
+[0.745541] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicCopy.hpp\n'}
+[0.745999] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp\n'}
+[0.746279] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicKeyDelegate.hpp\n'}
+[0.746519] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopic.hpp\n'}
+[0.746768] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp\n'}
+[0.747256] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/CDRBlob.hpp\n'}
+[0.747537] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/find.hpp\n'}
+[0.747830] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/hash.hpp\n'}
+[0.748228] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicDescriptionDelegate.hpp\n'}
+[0.748546] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicTraits.hpp\n'}
+[0.748882] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos\n'}
+[0.749168] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos/TopicQosDelegate.hpp\n'}
+[0.749497] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/FilterDelegate.hpp\n'}
+[0.749962] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/discovery.hpp\n'}
+[0.750222] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicDelegate.hpp\n'}
+[0.750644] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core\n'}
+[0.750938] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectDelegate.hpp\n'}
+[0.751396] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/QosProviderDelegate.hpp\n'}
+[0.751661] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ReportUtils.hpp\n'}
+[0.752146] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Missing.hpp\n'}
+[0.752549] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntitySet.hpp\n'}
+[0.752886] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityDelegate.hpp\n'}
+[0.753142] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/MiscUtils.hpp\n'}
+[0.753400] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/TimeHelper.hpp\n'}
+[0.753760] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/WeakReferenceSet.hpp\n'}
+[0.754084] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/DDScObjectDelegate.hpp\n'}
+[0.754353] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy\n'}
+[0.754662] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/ProprietaryPolicyKind.hpp\n'}
+[0.754964] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/TPolicy.hpp\n'}
+[0.755238] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/QosPolicyCountDelegate.hpp\n'}
+[0.755541] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/Policy.hpp\n'}
+[0.755853] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/PolicyDelegate.hpp\n'}
+[0.756166] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr\n'}
+[0.756431] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp\n'}
+[0.756732] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp\n'}
+[0.756999] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_enums.hpp\n'}
+[0.757253] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp\n'}
+[0.757591] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/fragchain.hpp\n'}
+[0.757860] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp\n'}
+[0.758160] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/entity_properties.hpp\n'}
+[0.758427] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ListenerDispatcher.hpp\n'}
+[0.758708] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/type_helpers.hpp\n'}
+[0.758970] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectSet.hpp\n'}
+[0.759235] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityRegistry.hpp\n'}
+[0.759531] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/config.hpp\n'}
+[0.759802] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond\n'}
+[0.760088] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/GuardConditionDelegate.hpp\n'}
+[0.760386] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/FunctorHolder.hpp\n'}
+[0.760649] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ShadowParticipant.hpp\n'}
+[0.760921] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ConditionDelegate.hpp\n'}
+[0.761218] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/StatusConditionDelegate.hpp\n'}
+[0.761506] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/WaitSetDelegate.hpp\n'}
+[0.761795] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status\n'}
+[0.762062] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status/StatusDelegate.hpp\n'}
+[0.762304] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/InstanceHandleDelegate.hpp\n'}
+[0.762608] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ScopedLock.hpp\n'}
+[0.762870] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Mutex.hpp\n'}
+[0.763170] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub\n'}
+[0.763432] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/CoherentSetDelegate.hpp\n'}
+[0.763726] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/SuspendedPublicationDelegate.hpp\n'}
+[0.763977] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/PublisherDelegate.hpp\n'}
+[0.764272] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos\n'}
+[0.764551] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/PublisherQosDelegate.hpp\n'}
+[0.764816] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/DataWriterQosDelegate.hpp\n'}
+[0.765064] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/AnyDataWriterDelegate.hpp\n'}
+[0.765372] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/ForwardDeclarations.hpp\n'}
+[0.765653] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds\n'}
+[0.765952] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/features.hpp\n'}
+[0.766222] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub\n'}
+[0.766514] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/LoanedSamples.hpp\n'}
+[0.766778] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SharedSamples.hpp\n'}
+[0.767068] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TQuery.hpp\n'}
+[0.767360] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleInfo.hpp\n'}
+[0.767618] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReader.hpp\n'}
+[0.767907] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Subscriber.hpp\n'}
+[0.768188] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SubscriberListener.hpp\n'}
+[0.768493] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReaderListener.hpp\n'}
+[0.768759] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TRank.hpp\n'}
+[0.769060] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Sample.hpp\n'}
+[0.769324] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Rank.hpp\n'}
+[0.769645] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/ddssub.hpp\n'}
+[0.769913] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleRef.hpp\n'}
+[0.770171] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/find.hpp\n'}
+[0.770463] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TDataReader.hpp\n'}
+[0.770725] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSample.hpp\n'}
+[0.771019] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Query.hpp\n'}
+[0.771282] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReader.hpp\n'}
+[0.771582] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/GenerationCount.hpp\n'}
+[0.771854] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReaderListener.hpp\n'}
+[0.772108] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail\n'}
+[0.772308] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamples.hpp\n'}
+[0.772631] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamples.hpp\n'}
+[0.772848] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/AnyDataReader.hpp\n'}
+[0.773089] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Subscriber.hpp\n'}
+[0.773310] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamplesImpl.hpp\n'}
+[0.773553] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Sample.hpp\n'}
+[0.773784] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Rank.hpp\n'}
+[0.773997] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TRankImpl.hpp\n'}
+[0.774218] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TCoherentAccessImpl.hpp\n'}
+[0.774435] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSubscriberImpl.hpp\n'}
+[0.774697] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/ddssub.hpp\n'}
+[0.774931] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleRef.hpp\n'}
+[0.775176] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/find.hpp\n'}
+[0.775414] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SamplesHolder.hpp\n'}
+[0.775676] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamplesImpl.hpp\n'}
+[0.775914] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Query.hpp\n'}
+[0.776155] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/DataReader.hpp\n'}
+[0.776446] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/GenerationCount.hpp\n'}
+[0.776682] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleImpl.hpp\n'}
+[0.776952] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Manipulators.hpp\n'}
+[0.777180] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleRefImpl.hpp\n'}
+[0.777476] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TQueryImpl.hpp\n'}
+[0.777704] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleInfoImpl.hpp\n'}
+[0.777950] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/CoherentAccess.hpp\n'}
+[0.778229] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleInfo.hpp\n'}
+[0.778469] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TAnyDataReaderImpl.hpp\n'}
+[0.778708] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TGenerationCountImpl.hpp\n'}
+[0.778977] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/discovery.hpp\n'}
+[0.779175] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp\n'}
+[0.779446] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TAnyDataReader.hpp\n'}
+[0.779687] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/CoherentAccess.hpp\n'}
+[0.779926] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleInfo.hpp\n'}
+[0.780198] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond\n'}
+[0.780437] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TQueryCondition.hpp\n'}
+[0.780665] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/ReadCondition.hpp\n'}
+[0.780899] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/QueryCondition.hpp\n'}
+[0.781137] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail\n'}
+[0.781440] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TReadConditionImpl.hpp\n'}
+[0.781726] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TQueryConditionImpl.hpp\n'}
+[0.781965] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/ReadCondition.hpp\n'}
+[0.782205] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/QueryCondition.hpp\n'}
+[0.782439] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TReadCondition.hpp\n'}
+[0.782677] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos\n'}
+[0.782927] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/SubscriberQos.hpp\n'}
+[0.783169] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/DataReaderQos.hpp\n'}
+[0.783412] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail\n'}
+[0.783683] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/SubscriberQos.hpp\n'}
+[0.783928] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/DataReaderQos.hpp\n'}
+[0.784168] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status\n'}
+[0.784404] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/DataState.hpp\n'}
+[0.784665] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail\n'}
+[0.784896] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail/DataStateImpl.hpp\n'}
+[0.785140] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleRef.hpp\n'}
+[0.785399] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TGenerationCount.hpp\n'}
+[0.785652] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TCoherentAccess.hpp\n'}
+[0.785897] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/discovery.hpp\n'}
+[0.786133] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSubscriber.hpp\n'}
+[0.786363] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain\n'}
+[0.786633] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/TDomainParticipant.hpp\n'}
+[0.786873] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/find.hpp\n'}
+[0.787127] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail\n'}
+[0.787395] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/DomainParticipant.hpp\n'}
+[0.787637] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/ddsdomain.hpp\n'}
+[0.787876] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp\n'}
+[0.788145] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipant.hpp\n'}
+[0.788386] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos\n'}
+[0.788627] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/DomainParticipantQos.hpp\n'}
+[0.788856] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail\n'}
+[0.789088] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail/DomainParticipantQos.hpp\n'}
+[0.789370] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/ddsdomain.hpp\n'}
+[0.789647] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/discovery.hpp\n'}
+[0.789878] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipantListener.hpp\n'}
+[0.790149] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/dds.hpp\n'}
+[0.790393] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/LICENSE\n'}
+[0.790631] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic\n'}
+[0.790861] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TAnyTopic.hpp\n'}
+[0.791129] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/MultiTopic.hpp\n'}
+[0.791375] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Filter.hpp\n'}
+[0.791611] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopicListener.hpp\n'}
+[0.791873] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicListener.hpp\n'}
+[0.792095] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopic.hpp\n'}
+[0.792315] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TFilter.hpp\n'}
+[0.792537] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopic.hpp\n'}
+[0.792751] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Topic.hpp\n'}
+[0.792966] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopicDescription.hpp\n'}
+[0.793211] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopic.hpp\n'}
+[0.793454] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicTraits.hpp\n'}
+[0.793673] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TContentFilteredTopic.hpp\n'}
+[0.793894] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/find.hpp\n'}
+[0.794116] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TMultiTopic.hpp\n'}
+[0.794325] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ContentFilteredTopic.hpp\n'}
+[0.794543] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail\n'}
+[0.794754] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/MultiTopic.hpp\n'}
+[0.794970] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Filter.hpp\n'}
+[0.795185] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/AnyTopic.hpp\n'}
+[0.795429] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Topic.hpp\n'}
+[0.795650] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp\n'}
+[0.795892] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicInstanceImpl.hpp\n'}
+[0.796143] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TFilterImpl.hpp\n'}
+[0.796359] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/find.hpp\n'}
+[0.796573] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicKeyImpl.hpp\n'}
+[0.796797] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp\n'}
+[0.797016] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TContentFilteredTopicImpl.hpp\n'}
+[0.797233] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopicKey.hpp\n'}
+[0.797474] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicImpl.hpp\n'}
+[0.797726] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TAnyTopicImpl.hpp\n'}
+[0.797942] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ddstopic.hpp\n'}
+[0.798156] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicDescription.hpp\n'}
+[0.798381] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicDescriptionImpl.hpp\n'}
+[0.798602] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/discovery.hpp\n'}
+[0.798820] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicImpl.hpp\n'}
+[0.799067] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopicKey.hpp\n'}
+[0.799291] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos\n'}
+[0.799504] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail\n'}
+[0.799717] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail/TopicQos.hpp\n'}
+[0.799925] (-) TimerEvent: {}
+[0.800302] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/TopicQos.hpp\n'}
+[0.800568] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopicKey.hpp\n'}
+[0.800838] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ddstopic.hpp\n'}
+[0.801074] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicDescription.hpp\n'}
+[0.801300] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopic.hpp\n'}
+[0.801530] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/discovery.hpp\n'}
+[0.801712] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicInstance.hpp\n'}
+[0.801930] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core\n'}
+[0.802183] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/BuiltinTopicTypes.hpp\n'}
+[0.802411] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntity.hpp\n'}
+[0.802631] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TQosProvider.hpp\n'}
+[0.802850] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Reference.hpp\n'}
+[0.803066] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Optional.hpp\n'}
+[0.803283] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/conformance.hpp\n'}
+[0.803530] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TBuiltinTopicTypes.hpp\n'}
+[0.803753] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/SafeEnumeration.hpp\n'}
+[0.803974] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/macros.hpp\n'}
+[0.804192] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/refmacros.hpp\n'}
+[0.804439] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Entity.hpp\n'}
+[0.804667] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TInstanceHandle.hpp\n'}
+[0.804912] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/LengthUnlimited.hpp\n'}
+[0.805143] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy\n'}
+[0.805387] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/CorePolicy.hpp\n'}
+[0.805620] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail\n'}
+[0.805874] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/CorePolicy.hpp\n'}
+[0.806097] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TQosPolicyCountImpl.hpp\n'}
+[0.806318] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TCorePolicyImpl.hpp\n'}
+[0.806560] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/QosPolicyCount.hpp\n'}
+[0.806786] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/QosPolicyCount.hpp\n'}
+[0.807008] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TCorePolicy.hpp\n'}
+[0.807224] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/PolicyKind.hpp\n'}
+[0.807443] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TQosPolicyCount.hpp\n'}
+[0.807684] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/ddscore.hpp\n'}
+[0.807900] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/External.hpp\n'}
+[0.808123] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/array.hpp\n'}
+[0.808396] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/ref_traits.hpp\n'}
+[0.808657] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Exception.hpp\n'}
+[0.808926] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/InstanceHandle.hpp\n'}
+[0.809149] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntityQos.hpp\n'}
+[0.809397] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Time.hpp\n'}
+[0.809626] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes\n'}
+[0.809850] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeProvider.hpp\n'}
+[0.810072] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TCollectionTypes.hpp\n'}
+[0.810331] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicType.hpp\n'}
+[0.810585] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TMemberType.hpp\n'}
+[0.810804] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TAnnotation.hpp\n'}
+[0.811032] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionCase.hpp\n'}
+[0.811243] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/PrimitiveTypes.hpp\n'}
+[0.811425] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeKind.hpp\n'}
+[0.811669] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicData.hpp\n'}
+[0.811885] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicData.hpp\n'}
+[0.812105] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicType.hpp\n'}
+[0.812317] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/StructType.hpp\n'}
+[0.812525] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail\n'}
+[0.812732] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/TypeProvider.hpp\n'}
+[0.812935] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/Annotation.hpp\n'}
+[0.813159] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicType.hpp\n'}
+[0.813384] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionCase.hpp\n'}
+[0.813600] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/PrimitiveTypes.hpp\n'}
+[0.813808] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicData.hpp\n'}
+[0.814013] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/StructType.hpp\n'}
+[0.814200] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/MemberType.hpp\n'}
+[0.814403] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/CollectionTypes.hpp\n'}
+[0.814608] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionType.hpp\n'}
+[0.814842] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TStructType.hpp\n'}
+[0.815051] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/MemberType.hpp\n'}
+[0.815260] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/CollectionTypes.hpp\n'}
+[0.815463] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/Annotations.hpp\n'}
+[0.815663] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionType.hpp\n'}
+[0.815864] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TTypeProvider.hpp\n'}
+[0.816094] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail\n'}
+[0.816298] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/BuiltinTopicTypes.hpp\n'}
+[0.816502] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/conformance.hpp\n'}
+[0.816709] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TInstanceHandleImpl.hpp\n'}
+[0.816909] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/macros.hpp\n'}
+[0.817110] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Entity.hpp\n'}
+[0.817356] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityImpl.hpp\n'}
+[0.817580] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ddscore.hpp\n'}
+[0.817788] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/array.hpp\n'}
+[0.818020] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ref_traits.hpp\n'}
+[0.818224] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/inttypes.hpp\n'}
+[0.818434] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/InstanceHandle.hpp\n'}
+[0.818659] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/old_win_stdint.h\n'}
+[0.818871] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/WeakReferenceImpl.hpp\n'}
+[0.819109] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ReferenceImpl.hpp\n'}
+[0.819317] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TQosProviderImpl.hpp\n'}
+[0.819532] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityQosImpl.hpp\n'}
+[0.819761] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/module_docs.hpp\n'}
+[0.819990] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/QosProvider.hpp\n'}
+[0.820160] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Value.hpp\n'}
+[0.820363] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/export.hpp\n'}
+[0.820568] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/WeakReference.hpp\n'}
+[0.820785] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond\n'}
+[0.820989] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TCondition.hpp\n'}
+[0.821193] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TGuardCondition.hpp\n'}
+[0.821424] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/StatusCondition.hpp\n'}
+[0.821597] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/Condition.hpp\n'}
+[0.821803] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TWaitSet.hpp\n'}
+[0.822004] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail\n'}
+[0.822208] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TGuardConditionImpl.hpp\n'}
+[0.822435] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/StatusCondition.hpp\n'}
+[0.822642] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TWaitSetImpl.hpp\n'}
+[0.822853] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/Condition.hpp\n'}
+[0.823057] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TStatusConditionImpl.hpp\n'}
+[0.823260] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TConditionImpl.hpp\n'}
+[0.823460] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/GuardCondition.hpp\n'}
+[0.823657] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/WaitSet.hpp\n'}
+[0.823857] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/GuardCondition.hpp\n'}
+[0.824054] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TStatusCondition.hpp\n'}
+[0.824280] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/WaitSet.hpp\n'}
+[0.824449] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status\n'}
+[0.824610] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/State.hpp\n'}
+[0.824797] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/Status.hpp\n'}
+[0.825021] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/TStatus.hpp\n'}
+[0.825222] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail\n'}
+[0.825459] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/TStatusImpl.hpp\n'}
+[0.825672] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/Status.hpp\n'}
+[0.825843] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Duration.hpp\n'}
+[0.826114] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/QosProvider.hpp\n'}
+[0.826326] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Value.hpp\n'}
+[0.826533] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/core/types.hpp\n'}
+[0.826738] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub\n'}
+[0.826947] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/PublisherListener.hpp\n'}
+[0.827113] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriter.hpp\n'}
+[0.827320] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/SuspendedPublication.hpp\n'}
+[0.827526] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriterListener.hpp\n'}
+[0.827731] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriterListener.hpp\n'}
+[0.827930] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/find.hpp\n'}
+[0.828140] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TCoherentSet.hpp\n'}
+[0.828342] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TAnyDataWriter.hpp\n'}
+[0.828558] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TPublisher.hpp\n'}
+[0.828761] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/CoherentSet.hpp\n'}
+[0.828966] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/Publisher.hpp\n'}
+[0.829202] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail\n'}
+[0.829386] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TCoherentSetImpl.hpp\n'}
+[0.829618] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TAnyDataWriterImpl.hpp\n'}
+[0.829790] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriter.hpp\n'}
+[0.829993] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/SuspendedPublication.hpp\n'}
+[0.830197] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TSuspendedPublicationImpl.hpp\n'}
+[0.830394] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriterImpl.hpp\n'}
+[0.830576] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/find.hpp\n'}
+[0.830747] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/CoherentSet.hpp\n'}
+[0.831011] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TPublisherImpl.hpp\n'}
+[0.831230] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/Publisher.hpp\n'}
+[0.831389] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/ddspub.hpp\n'}
+[0.831600] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/AnyDataWriter.hpp\n'}
+[0.831759] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/discovery.hpp\n'}
+[0.831949] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos\n'}
+[0.832138] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/DataWriterQos.hpp\n'}
+[0.832329] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/PublisherQos.hpp\n'}
+[0.832526] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail\n'}
+[0.832717] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/DataWriterQos.hpp\n'}
+[0.832910] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/PublisherQos.hpp\n'}
+[0.833101] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/ddspub.hpp\n'}
+[0.833264] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriter.hpp\n'}
+[0.833500] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TSuspendedPublication.hpp\n'}
+[0.833659] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/discovery.hpp\n'}
+[0.833811] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds\n'}
+[0.833960] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc\n'}
+[0.834108] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_basic_types.h\n'}
+[0.834257] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_internal_api.h\n'}
+[0.834402] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_error.h\n'}
+[0.834548] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_statistics.h\n'}
+[0.834693] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_loan_api.h\n'}
+[0.834882] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_status.h\n'}
+[0.835035] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_rhc.h\n'}
+[0.835184] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_data_allocator.h\n'}
+[0.835329] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_opcodes.h\n'}
+[0.835506] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_alloc.h\n'}
+[0.835657] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_impl.h\n'}
+[0.835804] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qosdefs.h\n'}
+[0.835950] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_listener.h\n'}
+[0.836097] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qos.h\n'}
+[0.836242] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt\n'}
+[0.836386] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/ifaddrs.h\n'}
+[0.836530] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/time.h\n'}
+[0.836675] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/random.h\n'}
+[0.836819] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/process.h\n'}
+[0.836962] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/static_assert.h\n'}
+[0.837271] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sync.h\n'}
+[0.837487] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/arch.h\n'}
+[0.837637] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/environ.h\n'}
+[0.837836] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/countargs.h\n'}
+[0.838020] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/rusage.h\n'}
+[0.838198] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/fibheap.h\n'}
+[0.838379] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/strtod.h\n'}
+[0.839063] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem.h\n'}
+[0.839372] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/mh3.h\n'}
+[0.839691] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/bswap.h\n'}
+[0.839945] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sched.h\n'}
+[0.840173] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets\n'}
+[0.840390] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/posix.h\n'}
+[0.840603] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/windows.h\n'}
+[0.840845] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/string.h\n'}
+[0.841058] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/retcode.h\n'}
+[0.841279] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/misc.h\n'}
+[0.841481] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/netstat.h\n'}
+[0.841730] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/heap.h\n'}
+[0.841938] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/types.h\n'}
+[0.842107] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/xmlparser.h\n'}
+[0.842345] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem\n'}
+[0.842608] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/posix.h\n'}
+[0.842784] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/windows.h\n'}
+[0.843094] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sync\n'}
+[0.843317] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/posix.h\n'}
+[0.843536] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/freertos.h\n'}
+[0.843744] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/windows.h\n'}
+[0.843981] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/types\n'}
+[0.844197] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/types/posix.h\n'}
+[0.844390] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/types/vxworks.h\n'}
+[0.844594] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/types/windows.h\n'}
+[0.844857] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/iovec.h\n'}
+[0.845088] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/strtol.h\n'}
+[0.845302] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/time\n'}
+[0.845569] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/time/freertos.h\n'}
+[0.845770] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/align.h\n'}
+[0.845931] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/circlist.h\n'}
+[0.846160] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/threads.h\n'}
+[0.846354] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics\n'}
+[0.846514] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/sun.h\n'}
+[0.846664] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/gcc.h\n'}
+[0.846813] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/msvc.h\n'}
+[0.846961] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/arm.h\n'}
+[0.847107] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/log.h\n'}
+[0.847256] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/avl.h\n'}
+[0.847400] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/expand_vars.h\n'}
+[0.847567] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets.h\n'}
+[0.847715] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics.h\n'}
+[0.847862] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/md5.h\n'}
+[0.848008] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/attributes.h\n'}
+[0.848153] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/cdtors.h\n'}
+[0.848299] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/threads\n'}
+[0.848443] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/posix.h\n'}
+[0.848588] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/freertos.h\n'}
+[0.848732] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/windows.h\n'}
+[0.848876] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/dynlib.h\n'}
+[0.849018] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/endian.h\n'}
+[0.849161] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/hopscotch.h\n'}
+[0.849305] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsrt/io.h\n'}
+[0.849494] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/config.h\n'}
+[0.849635] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/dds.h\n'}
+[0.849773] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi\n'}
+[0.849911] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vendor.h\n'}
+[0.850047] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_gc.h\n'}
+[0.850180] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_whc.h\n'}
+[0.850314] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata.h\n'}
+[0.850447] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_tmpl.h\n'}
+[0.850581] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typebuilder.h\n'}
+[0.850715] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_threadmon.h\n'}
+[0.850850] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_feature_check.h\n'}
+[0.850984] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config_impl.h\n'}
+[0.851118] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgelems.h\n'}
+[0.851252] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/sysdeps.h\n'}
+[0.851388] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ipaddr.h\n'}
+[0.851538] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_topic.h\n'}
+[0.851679] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_domaingv.h\n'}
+[0.851831] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_transmit.h\n'}
+[0.851969] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_qosmatch.h\n'}
+[0.852104] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_index.h\n'}
+[0.852267] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_inverse_uint32_set.h\n'}
+[0.852403] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_wraddrset.h\n'}
+[0.852540] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_sockwaitset.h\n'}
+[0.852775] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertopic.h\n'}
+[0.853330] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_shm_transport.h\n'}
+[0.853820] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cdrstream.h\n'}
+[0.854478] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ownip.h\n'}
+[0.855100] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.idl\n'}
+[0.855249] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_builtin_topic_if.h\n'}
+[0.855391] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_log.h\n'}
+[0.855539] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_statistics.h\n'}
+[0.855716] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_lat_estim.h\n'}
+[0.855865] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_ddsi_discovery.h\n'}
+[0.856005] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_unused.h\n'}
+[0.856141] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_portmapping.h\n'}
+[0.856276] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.h\n'}
+[0.856408] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelookup.h\n'}
+[0.856541] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelib.h\n'}
+[0.856676] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_hbcontrol.h\n'}
+[0.856810] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_lease.h\n'}
+[0.856945] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_exchange.h\n'}
+[0.857079] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_lifespan.h\n'}
+[0.857211] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_participant.h\n'}
+[0.857365] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tcp.h\n'}
+[0.857555] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.idl\n'}
+[0.857728] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config.h\n'}
+[0.857874] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_acknack.h\n'}
+[0.858016] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_keyhash.h\n'}
+[0.858160] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_default.h\n'}
+[0.858300] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.h\n'}
+[0.858437] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tran.h\n'}
+[0.858577] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tkmap.h\n'}
+[0.858716] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgunits.h\n'}
+[0.858854] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_raweth.h\n'}
+[0.858993] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_iid.h\n'}
+[0.859130] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_rhc.h\n'}
+[0.859282] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_omg.h\n'}
+[0.859423] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist.h\n'}
+[0.859566] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xqos.h\n'}
+[0.859707] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_xevent.h\n'}
+[0.859844] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_debmon.h\n'}
+[0.859980] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ssl.h\n'}
+[0.860117] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_msg.h\n'}
+[0.860253] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_init.h\n'}
+[0.860390] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_endpoint.h\n'}
+[0.860561] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.idl\n'}
+[0.860698] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typewrap.h\n'}
+[0.860835] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_mcgroup.h\n'}
+[0.860970] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_plist.h\n'}
+[0.861107] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_protocol.h\n'}
+[0.861242] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_match.h\n'}
+[0.861401] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_receive.h\n'}
+[0.861543] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_pmd.h\n'}
+[0.861678] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deliver_locally.h\n'}
+[0.861827] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_guid.h\n'}
+[0.861960] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_misc.h\n'}
+[0.862092] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_pserop.h\n'}
+[0.862222] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_time.h\n'}
+[0.862353] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_impl.h\n'}
+[0.862486] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_bitset.h\n'}
+[0.862616] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_xmsg.h\n'}
+[0.862747] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity.h\n'}
+[0.862879] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_radmin.h\n'}
+[0.863009] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertype.h\n'}
+[0.863139] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_util.h\n'}
+[0.863270] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_genptr.h\n'}
+[0.863400] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_bswap.h\n'}
+[0.863530] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_participant.h\n'}
+[0.863660] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_freelist.h\n'}
+[0.863790] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_pcap.h\n'}
+[0.863921] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deadline.h\n'}
+[0.864051] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vnet.h\n'}
+[0.864181] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_thread.h\n'}
+[0.864310] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist_generic.h\n'}
+[0.864440] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_addrset.h\n'}
+[0.864569] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_locator.h\n'}
+[0.864699] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_endpoint.h\n'}
+[0.864827] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/q_rtps.h\n'}
+[0.864970] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.h\n'}
+[0.865172] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_udp.h\n'}
+[0.865313] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_handshake.h\n'}
+[0.865473] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/export.h\n'}
+[0.865609] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/version.h\n'}
+[0.865760] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/ria4065/go2_ws/install/unitree_sdk2/include/dds/features.h\n'}
+[0.865895] (unitree_sdk2) JobEnded: {'identifier': 'unitree_sdk2', 'rc': 'SIGINT'}
+[0.876589] (unitree_ros2_example) JobSkipped: {'identifier': 'unitree_ros2_example'}
+[0.876803] (-) EventReactorShutdown: {}

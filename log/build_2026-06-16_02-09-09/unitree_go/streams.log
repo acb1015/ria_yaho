@@ -1,0 +1,30 @@
+[0.043s] Invoking command in '/home/ria4065/go2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble NX_CONNECTION=192.168.50.197 33074 192.168.50.121 4000 /usr/bin/cmake /home/ria4065/go2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ria4065/go2_ws/install/unitree_go
+[0.059s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.426s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.600s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.648s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.725s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.735s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.754s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.164s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[1.164s]   By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH
+[1.164s]   this project has asked CMake to find a package configuration file provided
+[1.164s]   by "rosidl_generator_dds_idl", but CMake did not find one.
+[1.164s] 
+[1.165s]   Could not find a package configuration file provided by
+[1.165s]   "rosidl_generator_dds_idl" with any of the following names:
+[1.165s] 
+[1.165s]     rosidl_generator_dds_idlConfig.cmake
+[1.165s]     rosidl_generator_dds_idl-config.cmake
+[1.165s] 
+[1.165s]   Add the installation prefix of "rosidl_generator_dds_idl" to
+[1.165s]   CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory
+[1.165s]   containing one of the above files.  If "rosidl_generator_dds_idl" provides
+[1.166s]   a separate development package or SDK, be sure it has been installed.
+[1.166s] 
+[1.167s] [0m
+[1.167s] -- Configuring incomplete, errors occurred!
+[1.167s] See also "/home/ria4065/go2_ws/build/unitree_go/CMakeFiles/CMakeOutput.log".

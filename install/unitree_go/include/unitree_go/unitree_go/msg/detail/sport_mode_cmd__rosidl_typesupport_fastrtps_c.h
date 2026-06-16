@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/unitree_go/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_c.h

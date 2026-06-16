@@ -1,0 +1,10 @@
+{
+  "package_name": "ouster_sensor_msgs",
+  "non_idl_tuples": [
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-sensor-msgs:msg/PacketMsg.msg",
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-sensor-msgs:msg/Telemetry.msg",
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-sensor-msgs:srv/GetConfig.srv",
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-sensor-msgs:srv/SetConfig.srv",
+    "/home/ria4065/go2_ws/src/ouster-ros/ouster-sensor-msgs:srv/GetMetadata.srv"
+  ]
+}

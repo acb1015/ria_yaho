@@ -1,0 +1,5 @@
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:msg/PacketMsg.idl
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:msg/Telemetry.idl
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:srv/GetConfig.idl
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:srv/SetConfig.idl
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:srv/GetMetadata.idl

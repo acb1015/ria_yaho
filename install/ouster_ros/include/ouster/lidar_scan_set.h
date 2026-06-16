@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan_set.h

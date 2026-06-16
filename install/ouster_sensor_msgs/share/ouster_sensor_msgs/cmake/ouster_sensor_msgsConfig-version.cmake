@@ -1,0 +1,1 @@
+/home/ria4065/go2_ws/build/ouster_sensor_msgs/ament_cmake_core/ouster_sensor_msgsConfig-version.cmake
