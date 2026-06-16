@@ -52,9 +52,18 @@
 ## 3. 단계별 실행 계획
 
 ### Phase 0 — 환경 정정 (선결 작업)
-- [ ] `setup.sh` / `setup_default.sh` 를 Humble + `eno1` 기준으로 수정
-- [ ] Jetson 성능모드 고정: `sudo nvpmodel -m 0 && sudo jetson_clocks`
-- [ ] OS1 시간 동기화 점검 (`TIME_FROM_PTP_1588` 전환 검토, 또는 드라이버 수신시각 기반 보정)
+- [x] `setup.sh` / `setup_default.sh` 를 Humble + `eno1` 기준으로 수정 (2026-06-16)
+- [x] DDS 연결 검증: `ros2 daemon stop` 후 `ros2 topic list` 로 Go2 토픽(`/lowstate`, `/sportmodestate`, `/api/*` 등) 정상 수신 확인
+  - ⚠️ env var(`CYCLONEDDS_URI` 등) 변경 후에는 `ros2 daemon stop` 으로 데몬을 재시작해야 새 설정이 반영됨 (캐시된 데몬이 옛 인터페이스로 떠 있으면 토픽이 안 보임)
+- [x] Jetson 성능모드 고정: `sudo nvpmodel -m 0 && sudo jetson_clocks` (2026-06-16, `nvpmodel -q` → `NV Power Mode: MAXN` 확인됨)
+- [x] OS1 시간 동기화 점검 (2026-06-16): PTP 그랜드마스터/HW 타임스탬핑이 없는 단순 USB-이더넷 점대점 환경이라 `TIME_FROM_PTP_1588` 대신 [config/driver_params.yaml](src/ouster-ros/ouster-ros/config/driver_params.yaml)의 `timestamp_mode`를 `'TIME_FROM_ROS_TIME'`으로 설정 → 포인트클라우드/IMU 타임스탬프를 호스트(Orin NX) 수신 시각 기준으로 통일, LIO 융합에 필요한 라이다-IMU 시간 일치 확보
+
+#### 참고: Go2 내장 SLAM 발견
+DDS 검증 중 Go2 자체 온보드 컴퓨터가 이미 자체 L1 라이다 기반 SLAM 스택을 돌리고 있는 것을 확인함:
+- `/utlidar/cloud`, `/utlidar/cloud_deskewed`, `/utlidar/imu`, `/utlidar/robot_odom`, `/utlidar/robot_pose` 등
+- `/lio_sam_ros2/mapping/odometry`, `/uslam/frontend/odom`, `/uslam/localization/odom`, `/uslam/cloud_map` 등
+
+→ 이는 Orin NX + OS1로 구축할 파이프라인과 별개로 로봇 자체 내장 기능(Unitree 자체 L1 라이다 + LIO-SAM 기반). Phase 6 현장 테스트에서 우리 LIO 결과의 드리프트를 비교할 베이스라인으로 활용 가능. 단, 같은 `eno1` 네트워크를 공유하므로 대용량 포인트클라우드 토픽(`/utlidar/cloud*`, `/uslam/cloud_map`)이 대역폭을 잡아먹어 우리 쪽 DDS 통신에 영향 줄 수 있는지 추후 확인 필요.
 
 ### Phase 1 — 센서 단독 구동 검증
 - [ ] `ros2 launch ouster_ros sensor.launch.xml` 로 OS1 단독 구동
