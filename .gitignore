@@ -19,3 +19,5 @@ bags/
 # Point cloud data
 *.pcd
 src/FAST_LIO/PCD/
+
+src/LIO-SAM
