@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematype="xml" ?>
+<package format="3">
+  <name>go2_traversability</name>
+  <version>0.0.1</version>
+  <description>
+    Integration package for the Go2 local traversability pipeline:
+    Ouster -> FAST_LIO odometry/TF -> elevation_mapping_cupy -> traversability
+    -> GridMap to OccupancyGrid -> Nav2 local costmap.
+  </description>
+  <maintainer email="jb2292@naver.com">ria4065</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>ouster_ros</exec_depend>
+  <exec_depend>fast_lio</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
