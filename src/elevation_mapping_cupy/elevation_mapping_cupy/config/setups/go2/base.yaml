@@ -1,0 +1,28 @@
+# Go2 + Ouster OS-1-64 + FAST_LIO setup for elevation_mapping_cupy.
+# Loaded AFTER core/core_param.yaml, so the frame entries here override the
+# defaults (odom/base_link) to match our actual TF tree:
+#   camera_init -> body -> os_sensor   (FAST_LIO odom + bridge static TF)
+/elevation_mapping_node:
+  ros__parameters:
+    # ---- Frames (override core_param.yaml defaults) ----
+    map_frame: 'camera_init'          # FAST_LIO fixed/odom frame
+    corrected_map_frame: 'camera_init'
+    base_frame: 'body'                # FAST_LIO IMU body = robot center of map
+    initialize_frame_id: ['body']     # initializer square is built around body
+
+    # ---- Sensor input ----
+    subscribers:
+      ouster:
+        topic_name: '/ouster/points'  # raw Ouster cloud (os_sensor frame)
+        data_type: pointcloud
+
+    # ---- Outputs ----
+    publishers:
+      elevation_map_raw:
+        layers: ['elevation', 'traversability', 'variance']
+        basic_layers: ['elevation']
+        fps: 5.0
+      elevation_map_filter:
+        layers: ['min_filter', 'smooth', 'inpaint', 'elevation', 'traversability']
+        basic_layers: ['min_filter', 'smooth', 'inpaint']
+        fps: 3.0
